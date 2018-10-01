@@ -1,0 +1,87 @@
+%for search with vim and okular
+\synctex=1
+
+
+\input{template/template}
+\input{template/macros}
+
+
+%% ========================================================================
+%%  TODO: Enable/Disable
+%% ========================================================================
+\setboolean{myaddlistoftodos}{false}  %% "true" or "false"
+%% If set to "true": the current list of open todos is added after the
+%% table of contents. If \mytodonotesoptions is set to "disable", no
+%% list of todos is added, independent of this setting here.
+
+
+%----------------------------------------------------------------------------------------
+%	\begin{document}
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+\frontmatter
+
+\input{template/mytitlepage}
+%\input{template/projectacceptance}
+\cleardoublepage
+
+%----------------------------------------------------------------------------------------
+%	Abstract
+%----------------------------------------------------------------------------------------
+%\include{chapter/000_abstract}
+%\include{chapter/010_acknowledgements}
+%\include{chapter/020_declaration}
+
+
+%----------------------------------------------------------------------------------------
+%	List of Contents/Figures/Tables
+%----------------------------------------------------------------------------------------
+\tableofcontents
+\listoffigures
+
+\ifthenelse{\boolean{myaddlistoftodos}}{
+  \newpage\todototoc \listoftodos          %% handy if you are using todonotes with \todo{}
+}{}
+
+%----------------------------------------------------------------------------------------
+%	Body
+%----------------------------------------------------------------------------------------
+\mainmatter
+
+% Chapter file here
+%
+\include{chapter/000_abstract01}
+%\include{chapter/200_mid_reports}
+%\include{chapter/100_introduction}
+%\include{chapter/199_sample}
+%\include{chapter/800_conclusion}
+
+% following structure:
+%	000 => 099 abstract, acknoledgements,...
+%	100 => 899 content
+%	900 => 999 annexes, ...
+
+
+%----------------------------------------------------------------------------------------
+%	Bibliography
+%----------------------------------------------------------------------------------------
+
+%% prints every entry of the bib file -- useful in a state where is no cite
+\appendix
+\nocite{*}
+\printbibliography
+
+%----------------------------------------------------------------------------------------
+%	Appendix
+%----------------------------------------------------------------------------------------
+%% add possible appendix
+%\appendix
+%\addpart*{Appendix}
+%\input{chapter/900_annexes.tex}
+
+
+%----------------------------------------------------------------------------------------
+%	\end{document}
+%----------------------------------------------------------------------------------------
+\end{document}

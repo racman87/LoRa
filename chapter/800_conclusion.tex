@@ -1,0 +1,12 @@
+\chapter{Conclusion}
+
+Durant ce projet, une analyse poussée du fonctionnement d'un bus CAN a pu être faite, permettant de mettre en évidence le fait que ce bus avait été prévu à l'origine pour permettre une grande résistance vis-à-vis des perturbations électriques et permettant une hiérarchie stricte des émetteurs de messages visant un système à faible latence et haute fiabilité. Cependant, le développement de ce bus n'avait pas pris en compte la présence possible d'un acteur malveillant et aucune sécurité visant à préserver l'intégrité ni l'authenticité des messages n'a été prévue dans la norme.
+
+Ce travail a permis d'analyser l'architecture du véhicule, afin de comprendre quels types de messages et quelles informations circulent sur quels bus et l'ont peut voir que l'entreprise Navya a pris en compte certains points importants, tels que l'utilisation de plusieurs bus permettant de séparer les informations à transmettre.
+
+Cependant, cela n'est pas suffisant; il n'y a pas de redondance de l'information. Si l'un des bus ne permet plus une communication, les informations qui devaient transiter sur ce bus n'ont pas de cheminement alternatif et le flux d'informations est rompu. Dans le cadre d'un véhicule autonome circulant à basse vitesse, cela peut être perçu comme un incident peu grave, et le véhicule détectant une anomalie peut effectuer un freinage d'urgence. Il serait néanmoins intéressant de permettre une redondance de l'information permettant d'éviter cela.
+
+Lors de l'analyse du véhicule autonome, il a aussi pu être confirmé le fait que les messages concernant par exemple les commandes de direction transitent en clair et sans signature.
+Cela implique donc que le récepteur du message n'a aucun moyen de vérifier leur provenance.
+
+Concernant la protection de l'authenticité et de la provenance des données, il ne semble pas y avoir à l'heure actuelle, beaucoup de surcouches pour le bus CAN permettant d'assurer cette authenticité afin d'empêcher un attaquant de fournir de fausses données. Cela est le problème le plus grave, et c'est pourquoi une base de protocole "CanSecure" est décrite dans ce document. Ce "CanSecure" n'est pas prévu pour être implémenté tel quel, mais vise à suggérer une piste de réflexion sur la problématique de l'authenticité des données et sur un moyen possible d'y remédier.

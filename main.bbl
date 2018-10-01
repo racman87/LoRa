@@ -1,0 +1,235 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{kaist}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=HS}{%
+         family={Hwang},
+         familyi={H\bibinitperiod},
+         given={Soonmin},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Jaesik},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Namil},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Yukyung},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KIS}{%
+         family={Kweon},
+         familyi={K\bibinitperiod},
+         given={In\bibnamedelima So},
+         giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HS+1}
+    \strng{fullhash}{HSPJKNCYKIS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hwa+15}
+    \field{booktitle}{Proceedings of IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}
+    \field{title}{Multispectral Pedestrian Detection: Benchmark Dataset and
+  Baselines}
+    \field{year}{2015}
+  \endentry
+
+  \entry{liu2016multispectral}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jingjing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=ZS}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Shaoting},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Shu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MDN}{%
+         family={Metaxas},
+         familyi={M\bibinitperiod},
+         given={Dimitris\bibnamedelima N},
+         giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJ+1}
+    \strng{fullhash}{LJZSWSMDN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Liu+16}
+    \field{title}{Multispectral deep neural networks for pedestrian detection}
+    \field{journaltitle}{arXiv preprint arXiv:1611.02644}
+    \field{year}{2016}
+  \endentry
+
+  \entry{li2018multispectral}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LC}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Chengyang},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Tong},
+         familyi={T\bibinitperiod},
+         given={Ruofeng},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LC+1}
+    \strng{fullhash}{LCSDTRTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Li+18}
+    \field{title}{Multispectral Pedestrian Detection via Simultaneous Detection
+  and Segmentation}
+    \field{journaltitle}{arXiv preprint arXiv:1808.04818}
+    \field{year}{2018}
+  \endentry
+
+  \entry{konig2017fully}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=KD}{%
+         family={K{\"o}nig},
+         familyi={K\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Adam},
+         familyi={A\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JC}{%
+         family={Jarvers},
+         familyi={J\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Layher},
+         familyi={L\bibinitperiod},
+         given={Georg},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=NH}{%
+         family={Neumann},
+         familyi={N\bibinitperiod},
+         given={Heiko},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Teutsch},
+         familyi={T\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{KD+1}
+    \strng{fullhash}{KDAMJCLGNHTM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{K{\"o}n+17}
+    \field{booktitle}{Computer Vision and Pattern Recognition Workshops
+  (CVPRW), 2017 IEEE Conference on}
+    \field{pages}{243\bibrangedash 250}
+    \field{title}{Fully convolutional region proposal networks for
+  multispectral person detection}
+    \field{year}{2017}
+  \endentry
+
+  \entry{wagner2016multispectral}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=WJ}{%
+         family={Wagner},
+         familyi={W\bibinitperiod},
+         given={J{\"o}rg},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FV}{%
+         family={Fischer},
+         familyi={F\bibinitperiod},
+         given={Volker},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Herman},
+         familyi={H\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Behnke},
+         familyi={B\bibinitperiod},
+         given={Sven},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJ+1}
+    \strng{fullhash}{WJFVHMBS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wag+16}
+    \field{booktitle}{24th European Symposium on Artificial Neural Networks,
+  Computational Intelligence and Machine Learning (ESANN)}
+    \field{pages}{509\bibrangedash 514}
+    \field{title}{Multispectral pedestrian detection using deep fusion
+  convolutional neural networks}
+    \field{year}{2016}
+  \endentry
+\enddatalist
+\endinput

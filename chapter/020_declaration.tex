@@ -1,0 +1,18 @@
+\chapter*{Déclaration}
+
+\noindent Je, soussigné, \myauthor, déclare sur l’honneur que le travail rendu, intitulé \enquote{\mysubject} est le fruit d’un travail personnel. Je certifie ne pas avoir eu recours au plagiat ou à toutes autres formes de fraudes. Toutes les sources d’information utilisées et les citations d’auteur ont été clairement mentionnées.
+
+
+\vspace{2cm}
+
+%% definition of the block tat contains date and signature
+\newcommand{\mysignatureblock}[3]{%
+	%% Sorry, this is a "bit" of a hack. Maybe someone knows a more elegant method?
+	\begin{tabular}{llp{2em}l} 
+		#1 & \hspace{4cm}        & & \hspace{4cm} \\\cline{2-2}\cline{4-4}
+		&                     & & \\[-3mm]
+		& {\footnotesize #2}  & & {\footnotesize #3}
+	\end{tabular}
+}
+
+\mysignatureblock{St-Imier,}{Date}{Signature}

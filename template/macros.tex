@@ -1,0 +1,41 @@
+%---------------------------------------------------------------------------------------------------
+% include figures
+%---------------------------------------------------------------------------------------------------
+\newcommand{\myfigsrc}[5]{
+\begin{figure}[htp]
+	\begin{center}
+		\includegraphics[width=#2\textwidth]{figures/#1}
+		\captionsource{#3}{#4}
+		\label{#5} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
+}
+
+\newcommand{\myfig}[4]{
+\begin{figure}[htp]
+	\begin{center}
+		\includegraphics[width=#2\textwidth]{figures/#1}
+		\caption[#3]{#3}
+		\label{#4} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
+}
+
+\newcommand{\mypdfsrc}[6]{
+\begin{figure}[htp]
+	\begin{center}
+		\includegraphics[page=#6, width=#2\textwidth, frame]{figures/#1}
+		\captionsource{#3}{#4}
+		\label{#5} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
+}
+
+
+\newcommand*{\captionsource}[2]{%
+\caption[{#1}]{%
+	#1%
+	\\\hspace{\linewidth}%
+	\textbf{Source:} #2%
+}%
+}
