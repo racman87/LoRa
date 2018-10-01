@@ -19,11 +19,9 @@
 \datalist[entry]{none/global//global/global}
   \entry{kaist}{inproceedings}{}
     \name{author}{5}{}{%
-      {{hash=HS}{%
+      {{hash=H}{%
          family={Hwang},
          familyi={H\bibinitperiod},
-         given={Soonmin},
-         giveni={S\bibinitperiod},
       }}%
       {{hash=PJ}{%
          family={Park},
@@ -50,8 +48,8 @@
          giveni={I\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HS+1}
-    \strng{fullhash}{HSPJKNCYKIS1}
+    \strng{namehash}{H+1}
+    \strng{fullhash}{HPJKNCYKIS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Hwa+15}
