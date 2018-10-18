@@ -61,7 +61,7 @@ La base de données entière est séparée de telle sorte que 19.937 enregistrem
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=1]{figures/newattribute.jpg}
+		\includegraphics[scale=0.7]{figures/newattribute.jpg}
 		\caption{The new attribute “cell” construction phase}
 		\label{fig:newAttribute} %% NOTE: always label *after* caption!
 	\end{center}
@@ -208,7 +208,7 @@ Lors de mesure il existe beaucoup de paramètres qui peuvent créer une erreur. 
 
 \begin{figure}[H]
 	\begin{center}
-		\includegraphics[scale=1]{figures/LosNlos.png}
+		\includegraphics[scale=0.6]{figures/LosNlos.png}
 		\caption{Ranging error - LOS and NLOS}
 		\label{fig:LosNlos} %% NOTE: always label *after* caption!
 	\end{center}
@@ -233,4 +233,100 @@ Sur la base d'une vaste campagne de mesures en intérieur avec des radios UWB co
 \end{enumerate}
 
 \section{Résumé du document 03}
-\subsection{Pro/con}
+Pareil que dans les trois précédentes publications, le but est d'améliorer la précision du positionnement intérieur où il n'est pas possible d'utiliser un GPS. Cela toujours en tenant compte des problèmatiques d'un environnement dynamique avec des personnes qui bougent et de l'environnement complexe avec des murs, etc.. Dans ce papier ils ont validé leur solution dans 3 immeubles. Cet article est basé sur un positionnement WIFI fingerprinting et se base sur la force du signal recu.
+
+Pour effectuer les mesures il y a deux phases. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1]{figures/Fingerprinting.png}
+		\caption{Les deux phases du fingerprinting}
+		\label{fig:Fingerprinting} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
+
+La première consiste à décider combien de mesure on veut faire (tous les metres), comment sont prises les mesures (plusieurs mesures sont faites à chaque position) et comment labéliser le signal (souvent labélisé avec la coordonnée réelle). Cette phase est très importante et il est nécessaire de bien réfléchir comment procéder. (utiliser un robot par exemple)
+
+Concernant la seconde phase c'est de définr le positionement. Durant cette phase la partie délicate est de définir quel algorithme utiliser.
+
+\subsection{A comparative review of fingerprinting’s performance}
+Il existe une compétition comparative pour les positionnements indoor (Microsoft IPSN 2014).
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1]{figures/Competition.png}
+		\caption{Performance accuracy of fingerprinting at Microsoft IPSN 2014 competition}
+		\label{fig:Competition} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
+
+Cela permet de mettre en évidence les précisions qui sont obtenues. Les algortihmes qui seront étudiés sont : Weighted K-nearest neighbours (W-KNN), Naïve Bayes, neural network and histogram. Tous les mesures et tests sont bassé sur le RSS du WIFI. 
+
+Les mesures ont été effectuées de trois manières différentes (voir dans le document)
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=1]{figures/PerfAccu.png}
+		\caption{Performance accuracy of W-KNN, Naïve Bayes and neural network, reported in first review}
+		\label{fig:PerfAccu} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
+
+En résumé, la systèse des trois solutions suggèrent que, avec uniquement la mesure métrique WiFi RSS, de nombreux algorithmes complexes risquent de ne pas être aussi performants que des algorithmes plus simples. Malgré sa simplicité, W-KNN a excellé dans la plupart des analyses de "fingerprinting". Il convient de noter que le système MapUme, deuxième sur 22 concurrents du concours Microsoft IPSN 2014, utilisait également W-KNN comme principal algorithme. Cependant, l'approche Naïve Bayes améliore sa précision lorsque le nombre d'entrainements est élevé, ce qui indique qu'au-delà du WiFi RSS, des informations supplémentaires seront nécessaires pour améliorer d'avantage les performances du "fingerprinting".
+
+
+\subsection{A confidence machine approach to fingerprinting}
+Une chose qui est égalemnt importante c'est la confiance qu'il y a dans une algorithme. Pour cela cet article à utilisé "conformal prediction (CP)" afin de donner un indice de confiance.
+
+Plus on souhaite de confiance plus il est nécessaire d'avoir de set de données. Les avantages d'utiliser l'indice de confiance sont les suivants:
+
+\begin{enumerate}
+	\item Chaque prédiction est associée à un indice de confiance et permet de dire combien la prédiction est correcte. 
+	\item La prédiction produite par CP est statistiquement correcte sous les paramètres qui ont été choisi dans la phase on-line.
+	\item le niveau de confiance peut être ajusté pour produire un ensemble de prédiction plus grand ou plus petit.
+\end{enumerate}
+
+Dans cet article, l'algorithme W-KNN a été utilisé.
+
+\subsection{Test bed}
+Afin de valider leur algorithme, ils ont utilisé 3 bancs de test. 
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.5]{figures/TestBed.png}
+		\caption{Summary of the three fingerprinting test beds used in this article}
+		\label{fig:TestBed} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
+
+
+\begin{enumerate}
+	\item Royal Holloway : Données récoltées manuellement dans un office standard avec un smartphone
+	\item Cambridge : Données récoltées automatiquement par un robot dans un environnement assez idéal.
+	\item UJIIndoorLoc : Utilise le dataset publique qui couvre une grande surface indoor basé sur trois bâtiments.
+\end{enumerate}
+
+
+
+\subsection{Conclusion}
+
+Cet article propose une nouvelle approche d'apprentissage basé sur la confiance d'un algorithme permettant d'estimer la position de l'utilisateur à l'intérieur avec la force du signal WiFi. Il introduit une mesure de confiance, non seulement utile pour refléter l'incertitude des prédictions de positionnement, mais également capable d'ajuster la taille de l'ensemble de prédictions en conséquence. 
+
+Il a été montré empiriquement que la précision de positionnement était d’environ 2,4 m / probabilité de 75% avec un banc d’essai normal, environ 70 cm / probabilité de 75% avec un banc d’essai idéal et d’environ 8,8 m / probabilité de 75% avec un banc d’essai difficile. 
+
+Ces résultats ont surpassé les algorithmes de Machine Learning sans indince de confiance mis à l'essai sur les mêmes bancs d'essai jusqu'à 20% plus précis. Si on ne tient pas compte de CP l'algo W-KNN est un peu meilleur que Naïve Bayes. 
+
+Les approches présentée dans cet article ne nécessite pas de carte du bâtiment. Cela pourrait être utile de les avoir afin d'avoir des informations supplémentaires pour supprimer les mauvaises prédicitons comme par exemple une personne qui marche dans un mur. 
+
+
+\section{Choix de l'algorithme}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[scale=0.12]{figures/scikiLearn.png}
+		\caption{Comment choisir un algorithme ML}
+		\label{fig:scikiLearn} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
+
+%\todo{Compléter cette partie qui semble importante}
