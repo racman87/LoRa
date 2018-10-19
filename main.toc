@@ -78,8 +78,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Extrait de choses importantes}{19}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Comparaison}{19}{section.4.2}
+\contentsline {subsection}{\numberline {4.1.1}Type d'apprentissage}{19}{subsection.4.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Choix}{19}{section.4.3}
+\contentsline {subsection}{\numberline {4.1.2}Algorithme}{19}{subsection.4.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliographie}{21}{chapter*.27}
+\contentsline {subsubsection}{\nonumberline Decision Tree}{19}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Na\IeC {\"\i }ve Bayes}{19}{section*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Bayesian Network}{20}{section*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline K-Nearest Neighbor}{20}{section*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline SMO}{20}{section*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline AdaBoost}{20}{section*.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Bagging}{21}{section*.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline support vector machine(SVM) regression}{21}{section*.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Gaussian process (GP)}{21}{section*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.3}Outliers \cite {ML_indoor}}{21}{subsection.4.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Comparaison}{21}{section.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Choix}{21}{section.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Bibliographie}{23}{chapter*.37}

@@ -190,5 +190,249 @@
   41-65, DOI: 10.1080/24751839.2017.1295659}
     \field{year}{2017}
   \endentry
+
+  \entry{C4_5}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JRQ}{%
+         family={J.\bibnamedelima R.},
+         familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+         given={Quinlan},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JRQ1}
+    \strng{fullhash}{JRQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{JR14}
+    \field{title}{C4. 5: programs for machine learning}
+    \field{journaltitle}{Elsevier}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Bayesian}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GHJ}{%
+         family={G.\bibnamedelima H.},
+         familyi={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={P.},
+         familyi={P\bibinitperiod},
+         given={Langley},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GHJPL1}
+    \strng{fullhash}{GHJPL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{GHP95}
+    \field{title}{Estimating Continuous Distributions in Bayesian Classifiers}
+    \field{journaltitle}{11th Conference on Uncertainty in Artificial
+  Intelligence, pp., 338-345}
+    \field{year}{1995}
+  \endentry
+
+  \entry{DefectPred}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CA}{%
+         family={(23)\bibnamedelima C.},
+         familyi={\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Anuradha},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={S.},
+         familyi={S\bibinitperiod},
+         given={Dhall},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CASD1}
+    \strng{fullhash}{CASD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{CS13}
+    \field{title}{Software Defect Prediction Using Supervised Learning
+  Algorithm and Unsupervised Learning Algorithm}
+    \field{year}{2013}
+  \endentry
+
+  \entry{KMean_DT}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WY}{%
+         family={W.},
+         familyi={W\bibinitperiod},
+         given={Yotsawat},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={A.},
+         familyi={A\bibinitperiod},
+         given={Srivihok},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WYAS1}
+    \strng{fullhash}{WYAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{WA13}
+    \field{title}{Inbound tourists segmentation with combined algorithms using
+  K-Means and Decision Tree}
+    \field{journaltitle}{10th International Joint Conference on Computer
+  Science and Software Engineering (JCSSE), pp.189-194}
+    \field{year}{2013}
+  \endentry
+
+  \entry{QUAIL}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SU}{%
+         family={S.},
+         familyi={S\bibinitperiod},
+         given={Ureerat},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Singsri},
+         familyi={S\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SUSP1}
+    \strng{fullhash}{SUSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{SS14}
+    \field{title}{The classifier model for prediction quail gender after birth
+  based on external factors of quail egg}
+    \field{journaltitle}{IEEE 11th International Joint Conference on Computer
+  Science and Software Engineering (JCSSE)}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Bayesian01}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DY}{%
+         family={D.},
+         familyi={D\bibinitperiod},
+         given={Yang},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LJl}{%
+         family={L.},
+         familyi={L\bibinitperiod},
+         given={Jin-lin},
+         giveni={J\bibinitperiod-l\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DYLJl1}
+    \strng{fullhash}{DYLJl1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{DL}
+    \field{title}{Research on personal credit evaluation model based on
+  bayesian network and association rules}
+    \field{journaltitle}{International Conference on Wireless Communications,
+  Networking and Mobile Computing}
+  \endentry
+
+  \entry{ML00}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DWA}{%
+         family={D.\bibnamedelima W.},
+         familyi={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={Aha},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={D.},
+         familyi={D\bibinitperiod},
+         given={Kibler},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MKA}{%
+         family={M.\bibnamedelima K.},
+         familyi={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+         given={Albert},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DWADKMKA1}
+    \strng{fullhash}{DWADKMKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{DWDMK}
+    \field{title}{Instance-based learning algorithms}
+    \field{journaltitle}{Machine Learning, vol. 6, pp., 37-66}
+  \endentry
+
+  \entry{ML01}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CS}{%
+         family={C.},
+         familyi={C\bibinitperiod},
+         given={Shah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AGJ}{%
+         family={A.\bibnamedelima G.},
+         familyi={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Jivani},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CSAGJ1}
+    \strng{fullhash}{CSAGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{CAG}
+    \field{title}{Comparison of data mining classification algorithms for
+  breast cancer prediction}
+    \field{journaltitle}{Fourth International Conference on Computing,
+  Communications and Networking Technologies (ICCCNT)}
+  \endentry
+
+  \entry{Outliers}{article}{}
+    \name{author}{2}{}{%
+      {{hash=VB}{%
+         family={V.},
+         familyi={V\bibinitperiod},
+         given={Barnett},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=TL}{%
+         family={T.},
+         familyi={T\bibinitperiod},
+         given={Lewis},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VBTL1}
+    \strng{fullhash}{VBTL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{VT94}
+    \field{title}{Outliers in Statistical Data}
+    \verb{url}
+    \verb https://doi.org/10.1080/24751839.2017.1295659
+    \endverb
+    \field{journaltitle}{3rd ed. Wiley Series in Probability and Mathematical
+  Statistics}
+    \field{year}{1994}
+  \endentry
+
+  \entry{ESD}{article}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Esd}
+    \field{title}{lien concernant les ESD}
+    \verb{url}
+    \verb https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h3.htm
+    \endverb
+  \endentry
 \enddatalist
 \endinput
