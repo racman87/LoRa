@@ -16,7 +16,31 @@ Les trois premiers traitent du positionnement intérieur aidé avec des algorith
 Cette section permet de mettre en évidence les aspects importants qui ressortent des différentes lectures. 
 
 \subsection{Type d'apprentissage}
-\todo{mettre le schéma de scikit learn et expliquer les différentes alternative}
+Il exite plusieurs catégorie d'estimateur et dans ces catégories, il y a plusieurs algorithmes à choix. La figure \ref{fig:scikiLearn} permet de selectionner différents algorithmes en fonction de ce qu'il est nécessaire d'obtenir. 
+
+\begin{figure}[htp]
+	\begin{center}
+		\includegraphics[scale=0.12]{figures/scikiLearn.png}
+		\caption{Comment choisir un algorithme ML \cite{scikit}}
+		\label{fig:scikiLearn} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
+
+Dans le cas de ce travail, il y a deux possibilités. D'utiliser une classification ou d'utiliser la regression. Dans la figure \ref{fig:ClassReg}, une petite explication de la différence des deux type d'estimateur. 
+
+Dans le cas de la classification, on va apprendre à notre algorithme différentes postition et l'algoritme sera ensuite capable de fournir en sortie une de ses positions. Donc, en d'autres mots, il sort une région plutôt qu'une coordonnée. Si l'entrainement de l'algorithme a été fait avec un maillage fin alors le résultat sera fin. Lorsqu'un point est détecté il sera classifié selon la position la plus proche comme on le voit avec le carré vert et le carré rouge. 
+
+Dans une regression le problème est un peu différent. L'alorithme sera également entrainé avec différente position mais ensuite, par regression l'algorithme va tenter d'estimer la position du nouveau point et non plus de le positionner dans une classe. 
+
+Afin de clarifier ces deux options la lecture des trois documents cité ci-dessus va aider \cite{ML_algo}\cite{ML_UWB}\cite{CP_RSS}. 
+
+\begin{figure}[htp]
+	\begin{center}
+		\includegraphics[scale=0.5]{figures/ClassReg.png}
+		\caption{a) exemple de classification  b) exemple de regression}
+		\label{fig:ClassReg} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
 
 \subsection{Algorithme}
 Dans cette section, quelques algorithmes de classification utilisés dans ces études \cite{ML_indoor} \cite{ML_UWB} \cite{CP_RSS} sont brièvement décrits.
@@ -29,7 +53,6 @@ L’ID3 de Quinlan et son successeur, C4.5, sont les plus populaires parmi les a
 Le classificateur Naïve Bayes \cite{Bayesian} basé sur le théorème de Bayes est un algorithme d'apprentissage supervisé \cite{DefectPred}. Il est robuste aux données bruyantes, facile à construire, affiche une grande précision et rapidité lorsqu'il est appliqué à de grandes bases de données et exécute des modèles de classification plus complexes. Par conséquent, il est largement utilisé dans les tâches de classification. Il calcule la probabilité de chaque attribut dans les données en supposant qu'elles sont également importantes et indépendantes les unes des autres. Cette hypothèse est appelée indépendance conditionnelle de classe \cite{KMean_DT} \cite{QUAIL}.
 
 \subsubsection{Bayesian Network}
-
 L'algorithme de réseau bayésien est largement utilisé pour la classification et est basé sur le théorème de Bayes où la probabilité conditionnelle sur chaque nœud est calculée et forme un réseau bayésien. Il s'appelle également réseau de croyance ou réseau occasionnel. Réseau bayésien a deux parties nommées qualitatives et quantitatives, qui sont la structure topologique du réseau bayésien et le tableau de probabilité conditionnelle (CPT), respectivement \cite{Bayesian01}.
 
 Le réseau bayésien est un graphe acyclique dirigé où chaque nœud représente un attribut des données et un ensemble de distributions de probabilité. Ces distributions donnent les probabilités pour la valeur de chaque nœud étant donné que les parents de nœud.
@@ -38,30 +61,19 @@ Le réseau bayésien est un graphe acyclique dirigé où chaque nœud représent
 Le classificateur K-Nearest Neighbor (K-NN) \cite{ML00} est également connu sous le nom de classificateur basé sur la distance qui classe les instances en fonction de leur similarité. C'est l'un des algorithmes les plus populaires de l'apprentissage automatique. C'est un type d'apprentissage paresseux dans lequel la fonction n'est approchée que localement et tout calcul est retardé jusqu'à la classification. Le tuple inconnu dans K-NN est assigné à la classe la plus commune parmi ses K-plus proches voisins. Lorsque K = 1, le tuple inconnu se voit attribuer la classe du tuple d'apprentissage le plus proche dans l'espace des motifs \cite{ML01}.
 
 \subsubsection{SMO}
-L'algorithme d'optimisation séquentielle minimale (SMO - Sequential minimal optimization) [29] est représenté par John C. Platt pour la formation du classificateur de vecteurs de support à l'aide des noyaux polynomiaux ou RBF. C'est l'un des algorithmes les plus courants pour la classification des grandes marges par SVM. Il remplace globalement toutes les valeurs manquantes et transforme les attributs nominaux en attributs binaires. La SVM est une technique de classification basée sur la technologie des réseaux neuronaux utilisant la théorie de l'apprentissage statistique [30]. Il recherche un hyperplan optimal linéaire afin de maximiser la marge de séparation entre la classe positive et la classe négative. En pratique, la plupart des données ne sont pas linéairement séparables; ainsi, pour rendre la séparation possible, la transformation est effectuée à l'aide d'une fonction du noyau. L'entrée est transformée en un espace caractéristique de dimension supérieure à l'aide d'une cartographie non linéaire [30]. Une décision sur la fonction du Kernel est nécessaire pour implémenter SVM. Le Kernel définit la classe de fonction [31].
-
-[29] J. Platt, “Fast Training of Support Vector Machines using Sequential Minimal Optimization”, Advances in Kernel Methods - Support Vector Learning, 1998.
-
-[30] P. Niken, and H. Ohwada, "Applicability of machine-learning techniques in predicting customer defection", IEEE 2014 International Symposium on Technology Management and Emerging Technologies (ISTMET), 2014.
-
-[31] S. M. Obaidullah, K. Roy, and N. Das, "Comparison of different classifiers for script identification from handwritten document", 2013 IEEE International Conference on Signal Processing, Computing and Control (ISPCC), pp.1-6, 2013.
+L'algorithme d'optimisation séquentielle minimale (SMO - Sequential minimal optimization) \cite{ML29} est représenté par John C. Platt pour la formation du classificateur de vecteurs de support à l'aide des noyaux polynomiaux ou RBF. C'est l'un des algorithmes les plus courants pour la classification des grandes marges par SVM. Il remplace globalement toutes les valeurs manquantes et transforme les attributs nominaux en attributs binaires. La SVM est une technique de classification basée sur la technologie des réseaux neuronaux utilisant la théorie de l'apprentissage statistique \cite{ML30}. Il recherche un hyperplan optimal linéaire afin de maximiser la marge de séparation entre la classe positive et la classe négative. En pratique, la plupart des données ne sont pas linéairement séparables; ainsi, pour rendre la séparation possible, la transformation est effectuée à l'aide d'une fonction du noyau. L'entrée est transformée en un espace caractéristique de dimension supérieure à l'aide d'une cartographie non linéaire [30]. Une décision sur la fonction du Kernel est nécessaire pour implémenter SVM. Le Kernel définit la classe de fonction \cite{ML31}.
 
 \subsubsection{AdaBoost}
-AdaBoost (Adaptive Boosting) [32] est un algorithme d'apprentissage d'ensemble. Généralement, il peut être utilisé avec des algorithmes de Machine learning faibles pour améliorer leurs performances. Il est simple à mettre en œuvre, rapide et moins susceptible d'avoir un overfitting. Il améliore les algorithmes de classification instables tels que J48, DecisionStump, etc. L'idée derrière cet algorithme est d'obtenir un classificateur très précis en combinant de nombreux classificateurs faibles. Il fonctionne en exécutant de manière répétée un algorithme d'apprentissage faible donné sur diverses distributions sur les données d'apprentissage, puis en combinant les classificateurs produits par l'apprenant faible en un classificateur composite unique [33]. Les classificateurs de l'ensemble sont ajoutés un par un, de sorte que chaque classificateur suivant est entrainé sur des données difficiles pour les membres précédents de l'ensemble. Les poids sont définis sur les instances du jeu de données, en suivant une règle selon laquelle les instances difficiles à classer prennent plus de poids. Cette règle conduit les classificateurs ultérieurs à se concentrer sur eux [34].
-
-[32] Y. Freund, and R. E. Schapire, “Experiments with a new boosting algorithm”, 3th International Conference on Machine Learning, San Francisco, pp. 148-156, 1996.
-
-[33] R. Shams, and R. E. Mercer, "Classifying Spam Emails Using Text and Readability Features", 2013 IEEE 13th International Conference on Data Mining (ICDM, pp. 657-666, 2013.
-
-[34] S. O. Sharif, L. I. Kuncheva, and S. P. Mansoor, "Classifying encryption algorithms using pattern recognition techniques", 2010 IEEE International Conference on Information Theory and Information Security (ICITIS), , pp. 1168-1172, 2010.
+AdaBoost (Adaptive Boosting) \cite{ML32} est un algorithme d'apprentissage d'ensemble. Généralement, il peut être utilisé avec des algorithmes de Machine learning faibles pour améliorer leurs performances. Il est simple à mettre en œuvre, rapide et moins susceptible d'avoir un overfitting. Il améliore les algorithmes de classification instables tels que J48, DecisionStump, etc. L'idée derrière cet algorithme est d'obtenir un classificateur très précis en combinant de nombreux classificateurs faibles. Il fonctionne en exécutant de manière répétée un algorithme d'apprentissage faible donné sur diverses distributions sur les données d'apprentissage, puis en combinant les classificateurs produits par l'apprenant faible en un classificateur composite unique \cite{ML33}. Les classificateurs de l'ensemble sont ajoutés un par un, de sorte que chaque classificateur suivant est entrainé sur des données difficiles pour les membres précédents de l'ensemble. Les poids sont définis sur les instances du jeu de données, en suivant une règle selon laquelle les instances difficiles à classer prennent plus de poids. Cette règle conduit les classificateurs ultérieurs à se concentrer sur eux \cite{ML34}.
 
 \subsubsection{Bagging}
-le Bagging [35] crée des sacs de données de la même taille que le jeu de données d'origine en appliquant une sélection aléatoire à différents sous-ensembles des données d'apprentissage avec de nombreux exemples qui apparaissent plusieurs fois. Ce processus est appelé réplication bootstrap des données d'entrainement. L'idée derrière cette technique est de construire différents classificateurs en utilisant ces sous-ensembles. Chaque sous-ensemble est utilisé pour entrainer un classificateur individuel. Cette approche d'ensemble utilise le nombre de classificateurs a priori [35].
+le Bagging [35] crée des sacs de données de la même taille que le jeu de données d'origine en appliquant une sélection aléatoire à différents sous-ensembles des données d'apprentissage avec de nombreux exemples qui apparaissent plusieurs fois. Ce processus est appelé réplication bootstrap des données d'entrainement. L'idée derrière cette technique est de construire différents classificateurs en utilisant ces sous-ensembles. Chaque sous-ensemble est utilisé pour entrainer un classificateur individuel. Cette approche d'ensemble utilise le nombre de classificateurs a priori \cite{ML35}.
 
-[35] L. Breiman, “Bagging predictors”, Machine Learning. vol. 24, no. 2, pp.123-140, 1996.
+\subsubsection{support vector machine(SVM) pour la régression}
+Support vector machines (SVMs) est une méthode d'apprentissage suppervisée utilisée pour la classification. Cette méthode peut être étendue pour résoudre des problèmes de régression et cette méthode s'appelle Support Vetor Regression (SVR)
 
-\subsubsection{support vector machine(SVM) regression}
 \subsubsection{Gaussian process (GP)}
+Gaussian processes have recently gained interest from the machine learning community, as they form an elegant framework to perform regression \cite{ML51}.
 
 \subsection{Outliers \cite{ML_indoor}}
 Cette section donne un apperçu de la manière de traiter les "outliers - valeurs aberrantes", c'est-à-dire les points qui ne sont pas cohérent lors d'une mesure. Selon Barnet et Lewis \cite{Outliers}, un "outliers" est définit comme étant une observation qui semble incompatible avec le reste d'un ensemble de données.

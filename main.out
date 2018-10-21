@@ -1,35 +1,13 @@
-\BOOKMARK [0][-]{chapter.1}{Rapport int\351rm\351diaire : 17.09.2018 au 12.10.2018}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Cahier des charges}{chapter.1}% 2
-\BOOKMARK [2][-]{subsection.1.1.1}{Introduction}{section.1.1}% 3
-\BOOKMARK [2][-]{subsection.1.1.2}{But du projet}{section.1.1}% 4
-\BOOKMARK [2][-]{subsection.1.1.3}{Objectifs et t\342ches \340 r\351aliser}{section.1.1}% 5
-\BOOKMARK [1][-]{section.1.2}{R\351sum\351 du document 00}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.3}{R\351sum\351 du document 01}{chapter.1}% 7
-\BOOKMARK [2][-]{subsection.1.3.1}{Introduction}{section.1.3}% 8
-\BOOKMARK [2][-]{subsection.1.3.2}{Algorithmes}{section.1.3}% 9
-\BOOKMARK [2][-]{subsection.1.3.3}{Conclusions}{section.1.3}% 10
-\BOOKMARK [1][-]{section.1.4}{R\351sum\351 du document 02}{chapter.1}% 11
-\BOOKMARK [2][-]{subsection.1.4.1}{Ranging Errors}{section.1.4}% 12
-\BOOKMARK [2][-]{subsection.1.4.2}{Algrorithme}{section.1.4}% 13
-\BOOKMARK [2][-]{subsection.1.4.3}{Conclusion}{section.1.4}% 14
-\BOOKMARK [1][-]{section.1.5}{R\351sum\351 du document 03}{chapter.1}% 15
-\BOOKMARK [2][-]{subsection.1.5.1}{A comparative review of fingerprinting\220s performance}{section.1.5}% 16
-\BOOKMARK [2][-]{subsection.1.5.2}{A confidence machine approach to fingerprinting}{section.1.5}% 17
-\BOOKMARK [2][-]{subsection.1.5.3}{Test bed}{section.1.5}% 18
-\BOOKMARK [2][-]{subsection.1.5.4}{Conclusion}{section.1.5}% 19
-\BOOKMARK [1][-]{section.1.6}{Choix de l'algorithme}{chapter.1}% 20
-\BOOKMARK [0][-]{chapter.2}{Rapport int\351rm\351diaire : 15.10.2018 au 26.10.2018}{}% 21
-\BOOKMARK [1][-]{section.2.1}{Objectifs et t\342ches \340 r\351aliser}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{Introduction}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Contexte}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.2}{Aspect Novateur}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.3}{Objectifs et t\342ches \340 r\351aliser}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.4}{Structure du rapport}{chapter.3}% 27
-\BOOKMARK [0][-]{chapter.4}{Etat de l'art}{}% 28
-\BOOKMARK [1][-]{section.4.1}{Extrait de choses importantes}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.1.1}{Type d'apprentissage}{section.4.1}% 30
-\BOOKMARK [2][-]{subsection.4.1.2}{Algorithme}{section.4.1}% 31
-\BOOKMARK [2][-]{subsection.4.1.3}{Outliers MLindoor}{section.4.1}% 32
-\BOOKMARK [1][-]{section.4.2}{Comparaison}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.3}{Choix}{chapter.4}% 34
-\BOOKMARK [0][-]{chapter*.37}{Bibliographie}{}% 35
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Contexte}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Aspect Novateur}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Objectifs et t\342ches \340 r\351aliser}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Structure du rapport}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Etat de l'art}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Extrait de choses importantes}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Type d'apprentissage}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{Algorithme}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.3}{Outliers MLindoor}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{Comparaison}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{Choix}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter*.16}{Bibliographie}{}% 13

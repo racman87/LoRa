@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.30)  19 OCT 2018 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.30)  21 OCT 2018 18:47
 entering extended mode
 **./main.tex
 (main.tex
@@ -1664,7 +1664,6 @@ Package biblatex Info: ... file 'french.lbx' found.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\french.lbx"
 File: french.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 ) (main.aux
-(chapter/000_abstract01.aux) (chapter/000_measures_plan.aux)
 (chapter/000_introduction.aux) (chapter/000_etat_art.aux))
 \openout1 = `main.aux'.
 
@@ -1815,7 +1814,7 @@ LaTeX Info: Redefining \nameref on input line 21.
 \openout8 = `main.out'.
 
  (template/mytitlepage.tex
-<figures/titlepage_fig/mse.pdf, id=146, 219.82124pt x 20.075pt>
+<figures/titlepage_fig/mse.pdf, id=58, 219.82124pt x 20.075pt>
 File: figures/titlepage_fig/mse.pdf Graphic file (type pdf)
 <use figures/titlepage_fig/mse.pdf>
 Package pdftex.def Info: figures/titlepage_fig/mse.pdf  used on input line 7.
@@ -1849,7 +1848,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<figures/titlepage_fig/hesso2.pdf, id=147, 217.81375pt x 112.42pt>
+<figures/titlepage_fig/hesso2.pdf, id=59, 217.81375pt x 112.42pt>
 File: figures/titlepage_fig/hesso2.pdf Graphic file (type pdf)
 <use figures/titlepage_fig/hesso2.pdf>
 Package pdftex.def Info: figures/titlepage_fig/hesso2.pdf  used on input line 1
@@ -1906,200 +1905,76 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 41
 
 
 ]
-\openout2 = `chapter/000_abstract01.aux'.
-
- (chapter/000_abstract01.tex
-chapter 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--38
-
- []
-
-[1
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 54--61
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--61
-
- []
-
-[2]
-<figures/newattribute.jpg, id=283, 232.41376pt x 190.11937pt>
-File: figures/newattribute.jpg Graphic file (type jpg)
-<use figures/newattribute.jpg>
-Package pdftex.def Info: figures/newattribute.jpg  used on input line 64.
-(pdftex.def)             Requested size: 162.6885pt x 133.08264pt.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/pplj/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 65.
-
-
-LaTeX Font Warning: Font shape `T1/pplj/bx/sc' undefined
-(Font)              using `T1/pplj/bx/n' instead on input line 65.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/sc' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 65.
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--85
-
- []
-
-[3 <./figures/newattribute.jpg>] [4]
-<figures/wholeDataset.png, id=299, 371.58826pt x 205.36725pt>
-File: figures/wholeDataset.png Graphic file (type png)
-<use figures/wholeDataset.png>
-Package pdftex.def Info: figures/wholeDataset.png  used on input line 137.
-(pdftex.def)             Requested size: 371.58734pt x 205.36674pt.
- [5]
-<figures/bluildingClassification.png, id=307, 383.63326pt x 284.262pt>
-File: figures/bluildingClassification.png Graphic file (type png)
-<use figures/bluildingClassification.png>
-Package pdftex.def Info: figures/bluildingClassification.png  used on input lin
-e 147.
-(pdftex.def)             Requested size: 383.63231pt x 284.26129pt.
-<figures/floorClassification.png, id=308, 361.95226pt x 282.45525pt>
-File: figures/floorClassification.png Graphic file (type png)
-<use figures/floorClassification.png>
-Package pdftex.def Info: figures/floorClassification.png  used on input line 15
-7.
-(pdftex.def)             Requested size: 361.95135pt x 282.45454pt.
- [6 <./figures/wholeDataset.png> <./figures/bluildingClassification.png>]
-<figures/regionClassification.png, id=315, 346.896pt x 209.583pt>
-File: figures/regionClassification.png Graphic file (type png)
-<use figures/regionClassification.png>
-Package pdftex.def Info: figures/regionClassification.png  used on input line 1
-67.
-(pdftex.def)             Requested size: 346.89514pt x 209.58247pt.
-<figures/accuracy.png, id=316, 316.7835pt x 198.7425pt>
-File: figures/accuracy.png Graphic file (type png)
-<use figures/accuracy.png>
-Package pdftex.def Info: figures/accuracy.png  used on input line 177.
-(pdftex.def)             Requested size: 316.78271pt x 198.742pt.
- [7 <./figures/floorClassification.png> <./figures/regionClassification.png>]
-<figures/time.png, id=324, 313.17pt x 203.5605pt>
-File: figures/time.png Graphic file (type png)
-<use figures/time.png>
-Package pdftex.def Info: figures/time.png  used on input line 185.
-(pdftex.def)             Requested size: 313.16922pt x 203.56pt.
- [8 <./figures/accuracy.png> <./figures/time.png>]
-<figures/LosNlos.png, id=331, 735.34724pt x 316.7835pt>
-File: figures/LosNlos.png Graphic file (type png)
-<use figures/LosNlos.png>
-Package pdftex.def Info: figures/LosNlos.png  used on input line 211.
-(pdftex.def)             Requested size: 441.21175pt x 190.07155pt.
- [9 <./figures/LosNlos.png>]
-<figures/Fingerprinting.png, id=341, 255.95625pt x 199.34476pt>
-File: figures/Fingerprinting.png Graphic file (type png)
-<use figures/Fingerprinting.png>
-Package pdftex.def Info: figures/Fingerprinting.png  used on input line 242.
-(pdftex.def)             Requested size: 255.95561pt x 199.34425pt.
-<figures/Competition.png, id=342, 498.06075pt x 278.2395pt>
-File: figures/Competition.png Graphic file (type png)
-<use figures/Competition.png>
-Package pdftex.def Info: figures/Competition.png  used on input line 257.
-(pdftex.def)             Requested size: 498.05952pt x 278.23882pt.
-
-Overfull \hbox (28.58897pt too wide) in paragraph at lines 257--258
- [] 
- []
-
-[10 <./figures/Fingerprinting.png>]
-<figures/PerfAccu.png, id=352, 542.62724pt x 216.20775pt>
-File: figures/PerfAccu.png Graphic file (type png)
-<use figures/PerfAccu.png>
-Package pdftex.def Info: figures/PerfAccu.png  used on input line 269.
-(pdftex.def)             Requested size: 542.62592pt x 216.20721pt.
-
-Overfull \hbox (73.15536pt too wide) in paragraph at lines 269--270
- [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11 <./figures/Competition.png>]
-<figures/TestBed.png, id=358, 700.86844pt x 420.82219pt>
-File: figures/TestBed.png Graphic file (type png)
-<use figures/TestBed.png>
-Package pdftex.def Info: figures/TestBed.png  used on input line 296.
-(pdftex.def)             Requested size: 350.43336pt x 210.41057pt.
- [12 <./figures/PerfAccu.png>]
-<figures/scikiLearn.png, id=367, 3651.35571pt x 2276.505pt>
-File: figures/scikiLearn.png Graphic file (type png)
-<use figures/scikiLearn.png>
-Package pdftex.def Info: figures/scikiLearn.png  used on input line 326.
-(pdftex.def)             Requested size: 438.14378pt x 273.16881pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13 <./figures/TestBed.png>]) [14 <./figures/scikiLearn.png>]
-\openout2 = `chapter/000_measures_plan.aux'.
-
-
-(chapter/000_measures_plan.tex
-chapter 2.
-) [15
-
-
-
-
-]
 \openout2 = `chapter/000_introduction.aux'.
 
- (chapter/000_introduction.tex [16
-
-
-
-
-]
-chapter 3.
-<figures/MethodePos.png, id=392, 546.54187pt x 223.58531pt>
+ (chapter/000_introduction.tex
+chapter 1.
+<figures/MethodePos.png, id=129, 546.54187pt x 223.58531pt>
 File: figures/MethodePos.png Graphic file (type png)
 <use figures/MethodePos.png>
 Package pdftex.def Info: figures/MethodePos.png  used on input line 12.
 (pdftex.def)             Requested size: 382.57669pt x 156.50864pt.
-[17 <./figures/MethodePos.png>]
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 13.
+
+LaTeX Font Warning: Font shape `T1/pplj/bx/sc' undefined
+(Font)              using `T1/pplj/bx/n' instead on input line 13.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/sc' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 13.
+[1
+
+
+
+ <./figures/MethodePos.png>]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 49.
-) [18]
+) [2]
 \openout2 = `chapter/000_etat_art.aux'.
 
  (chapter/000_etat_art.tex
-chapter 4.
-[19
+chapter 2.
+<figures/scikiLearn.png, id=164, 3651.35571pt x 2276.505pt>
+File: figures/scikiLearn.png Graphic file (type png)
+<use figures/scikiLearn.png>
+Package pdftex.def Info: figures/scikiLearn.png  used on input line 23.
+(pdftex.def)             Requested size: 438.14378pt x 273.16881pt.
+
+Overfull \hbox (19.64903pt too wide) in paragraph at lines 35--36
+[]\T1/pplj/m/n/10 (-20) Afin de cla-ri-fier ces deux op-tions la lec-ture des t
+rois do-cu-ments cité ci-dessus va ai-der [[][]Sin+15[]][[][]Hen+12[]][[][]KN17
+[]]. 
+ []
+
+<figures/ClassReg.png, id=171, 507.69675pt x 260.77425pt>
+File: figures/ClassReg.png Graphic file (type png)
+<use figures/ClassReg.png>
+Package pdftex.def Info: figures/ClassReg.png  used on input line 39.
+(pdftex.def)             Requested size: 253.84775pt x 130.3868pt.
+[3
 
 
 
 
-] [20]
+] [4 <./figures/scikiLearn.png> <./figures/ClassReg.png>] [5]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cite' on input line 66.
+(hyperref)                removing `\cite' on input line 78.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 66.
+(hyperref)                removing `subscript' on input line 78.
 
-) [21] [22
+) [6] [7] [8
 
 
 
 ]
 chapter without number
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 74.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 72.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -2107,16 +1982,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [23]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 88.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 88.
+ [9] [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
  (main.aux
-(chapter/000_abstract01.aux) (chapter/000_measures_plan.aux)
 (chapter/000_introduction.aux) (chapter/000_etat_art.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 88.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 88.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A2DF969E4068351954E0B5D300E524DA;2489.
+(rerunfilecheck)             Checksum: 89F5083424F326ACB6F195A0C9E79D30;817.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2126,13 +2000,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45376 strings out of 492973
- 855219 string characters out of 3135908
+ 45201 strings out of 492973
+ 852009 string characters out of 3135908
  1410472 words of memory out of 3000000
- 48018 multiletter control sequences out of 15000+200000
- 594738 words of font info for 340 fonts, out of 3000000 for 9000
+ 47955 multiletter control sequences out of 15000+200000
+ 593938 words of font info for 328 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,100p,9111b,3227s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 75i,10n,100p,9111b,3227s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\manon.racine1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
 \dpi600\ectt1000.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <
 C:\Users\manon.racine1\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
@@ -2147,9 +2021,9 @@ TeX 2.9/fonts/type1/public/fpl/fplrij8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pala
 tino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.p
 fb>
-Output written on main.pdf (29 pages, 1650036 bytes).
+Output written on main.pdf (16 pages, 1101245 bytes).
 PDF statistics:
- 832 PDF objects out of 1000 (max. 8388607)
- 160 named destinations out of 1000 (max. 500000)
- 53109 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
+ 52878 words of extra memory for PDF output out of 61914 (max. 10000000)
 

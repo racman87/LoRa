@@ -1,7 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: biblatex.bst
-A level-1 auxiliary file: chapter/000_abstract01.aux
-A level-1 auxiliary file: chapter/000_measures_plan.aux
 A level-1 auxiliary file: chapter/000_introduction.aux
 A level-1 auxiliary file: chapter/000_etat_art.aux
 Database file #1: main-blx.bib
@@ -21,5 +19,45 @@ I was expecting a `,' or a `}'---line 104 of file bib/bibliography.bib
  :  year    = {2013},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 111 of file bib/bibliography.bib
+ :  
+ :  year    = {1998},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 118 of file bib/bibliography.bib
+ :  
+ :  year    = {2014},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 125 of file bib/bibliography.bib
+ :  
+ :  year    = {2013},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 132 of file bib/bibliography.bib
+ :  
+ :  year    = {1996},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 139 of file bib/bibliography.bib
+ :  
+ :  year    = {2013},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 146 of file bib/bibliography.bib
+ :  
+ :  year    = {2010},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 153 of file bib/bibliography.bib
+ :  
+ :  year    = {1996},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 165 of file bib/bibliography.bib
+ :  
+ :  year    = {2006},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Biblatex version: 3.8
-(There were 3 error messages)
+(There were 11 error messages)

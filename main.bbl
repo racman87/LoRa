@@ -191,6 +191,16 @@
     \field{year}{2017}
   \endentry
 
+  \entry{scikit}{article}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sci}
+    \field{title}{Machine Learning in Python}
+    \verb{url}
+    \verb http://scikit-learn.org/stable/tutorial/machine_learning_map/index.ht
+    \verb ml
+    \endverb
+  \endentry
+
   \entry{C4_5}{article}{}
     \name{author}{1}{}{%
       {{hash=JRQ}{%
@@ -395,6 +405,207 @@
   breast cancer prediction}
     \field{journaltitle}{Fourth International Conference on Computing,
   Communications and Networking Technologies (ICCCNT)}
+  \endentry
+
+  \entry{ML29}{article}{}
+    \name{author}{1}{}{%
+      {{hash=JP}{%
+         family={J.},
+         familyi={J\bibinitperiod},
+         given={Platt},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JP1}
+    \strng{fullhash}{JP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{J.}
+    \field{title}{Fast Training of Support Vector Machines using Sequential
+  Minimal Optimization}
+    \field{journaltitle}{Advances in Kernel Methods - Support Vector Learning}
+  \endentry
+
+  \entry{ML30}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PN}{%
+         family={P.},
+         familyi={P\bibinitperiod},
+         given={Niken},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HO}{%
+         family={H.},
+         familyi={H\bibinitperiod},
+         given={Ohwada},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PNHO1}
+    \strng{fullhash}{PNHO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{PH}
+    \field{title}{Applicability of machine-learning techniques in predicting
+  customer defection}
+    \field{journaltitle}{IEEE 2014 International Symposium on Technology
+  Management and Emerging Technologies (ISTMET)}
+  \endentry
+
+  \entry{ML31}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SMO}{%
+         family={S.\bibnamedelima M.},
+         familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+         given={Obaidullah},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=KR}{%
+         family={K.},
+         familyi={K\bibinitperiod},
+         given={Roy},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ND}{%
+         family={N.},
+         familyi={N\bibinitperiod},
+         given={Das},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMOKRND1}
+    \strng{fullhash}{SMOKRND1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{SMKN}
+    \field{title}{Comparison of different classifiers for script identification
+  from handwritten document}
+    \field{journaltitle}{IEEE International Conference on Signal Processing,
+  Computing and Control (ISPCC), pp.1-6}
+  \endentry
+
+  \entry{ML32}{article}{}
+    \name{author}{2}{}{%
+      {{hash=YF}{%
+         family={Y.},
+         familyi={Y\bibinitperiod},
+         given={Freund},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RES}{%
+         family={R.\bibnamedelima E.},
+         familyi={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+         given={Schapire},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YFRES1}
+    \strng{fullhash}{YFRES1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{YRE}
+    \field{title}{Experiments with a new boosting algorithm}
+    \field{journaltitle}{3th International Conference on Machine Learning, San
+  Francisco, pp. 148-156}
+  \endentry
+
+  \entry{ML33}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RS}{%
+         family={R.},
+         familyi={R\bibinitperiod},
+         given={Shams},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=REM}{%
+         family={R.\bibnamedelima E.},
+         familyi={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+         given={Mercer},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RSREM1}
+    \strng{fullhash}{RSREM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{RRE}
+    \field{title}{Classifying Spam Emails Using Text and Readability Features}
+    \field{journaltitle}{IEEE 13th International Conference on Data Mining
+  (ICDM, pp. 657-666}
+  \endentry
+
+  \entry{ML34}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SOS}{%
+         family={S.\bibnamedelima O.},
+         familyi={S\bibinitperiod\bibinitdelim O\bibinitperiod},
+         given={Sharif},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LIK}{%
+         family={L.\bibnamedelima I.},
+         familyi={L\bibinitperiod\bibinitdelim I\bibinitperiod},
+         given={Kuncheva},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SPM}{%
+         family={S.\bibnamedelima P.},
+         familyi={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Mansoor},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SOSLIKSPM1}
+    \strng{fullhash}{SOSLIKSPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{SOLISP}
+    \field{title}{Classifying encryption algorithms using pattern recognition
+  techniques}
+    \field{journaltitle}{IEEE International Conference on Information Theory
+  and Information Security (ICITIS), , pp. 1168-1172}
+  \endentry
+
+  \entry{ML35}{article}{}
+    \name{author}{1}{}{%
+      {{hash=LB}{%
+         family={L.},
+         familyi={L\bibinitperiod},
+         given={Breiman},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LB1}
+    \strng{fullhash}{LB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{L.}
+    \field{title}{Bagging predictors}
+    \field{journaltitle}{Machine Learning. vol. 24, no. 2, pp.123-140}
+  \endentry
+
+  \entry{ML51}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CR}{%
+         family={C.},
+         familyi={C\bibinitperiod},
+         given={Rasmussen},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CW}{%
+         family={C.},
+         familyi={C\bibinitperiod},
+         given={Williams},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CRCW1}
+    \strng{fullhash}{CRCW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{CC}
+    \field{title}{Gaussian Processes for Machine Learning}
+    \field{journaltitle}{Springer}
   \endentry
 
   \entry{Outliers}{article}{}
