@@ -76,93 +76,115 @@
     \field{year}{2017}
   \endentry
 
-  \entry{ML_algo}{report}{}
-    \name{author}{4}{}{%
-      {{hash=SB}{%
-         family={Sinem},
-         familyi={S\bibinitperiod},
-         given={Bozkurt},
-         giveni={B\bibinitperiod},
+  \entry{scikit}{article}{}
+    \name{author}{16}{}{%
+      {{hash=PF}{%
+         family={Pedregosa},
+         familyi={P\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
       }}%
-      {{hash=GE}{%
-         family={Gulin},
-         familyi={G\bibinitperiod},
-         given={Elibol},
-         giveni={E\bibinitperiod},
-      }}%
-      {{hash=SG}{%
-         family={Serkan},
-         familyi={S\bibinitperiod},
-         given={Gunal},
+      {{hash=VG}{%
+         family={Varoquaux},
+         familyi={V\bibinitperiod},
+         given={G.},
          giveni={G\bibinitperiod},
       }}%
-      {{hash=UY}{%
-         family={Ugur},
-         familyi={U\bibinitperiod},
-         given={Yayan},
-         giveni={Y\bibinitperiod},
+      {{hash=GA}{%
+         family={Gramfort},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
       }}%
-    }
-    \strng{namehash}{SB+1}
-    \strng{fullhash}{SBGESGUY1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Sin+15}
-    \field{title}{A Comparative Study on Machine Learning algorithms for Indoor
-  Positioning}
-    \list{institution}{2}{%
-      {This work is supported by The Scientific}%
-      {Technological Research Council of Turkey (TUBITAK) under grant number
-  1130024}%
-    }
-    \field{type}{techreport}
-    \field{year}{2015}
-  \endentry
-
-  \entry{ML_UWB}{report}{}
-    \name{author}{4}{}{%
-      {{hash=HW}{%
-         family={Henk},
-         familyi={H\bibinitperiod},
-         given={Wymeersch},
-         giveni={W\bibinitperiod},
+      {{hash=MV}{%
+         family={Michel},
+         familyi={M\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
       }}%
-      {{hash=SM}{%
-         family={Stefano},
-         familyi={S\bibinitperiod},
-         given={Maranò},
+      {{hash=TB}{%
+         family={Thirion},
+         familyi={T\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GO}{%
+         family={Grisel},
+         familyi={G\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Blondel},
+         familyi={B\bibinitperiod},
+         given={M.},
          giveni={M\bibinitperiod},
       }}%
-      {{hash=WMG}{%
-         family={Wesley},
-         familyi={W\bibinitperiod},
-         given={M.\bibnamedelima Gifford},
-         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      {{hash=PP}{%
+         family={Prettenhofer},
+         familyi={P\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
       }}%
-      {{hash=MZW}{%
-         family={Moe},
-         familyi={M\bibinitperiod},
-         given={Z.\bibnamedelima Win},
-         giveni={Z\bibinitperiod\bibinitdelim W\bibinitperiod},
+      {{hash=WR}{%
+         family={Weiss},
+         familyi={W\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DV}{%
+         family={Dubourg},
+         familyi={D\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vanderplas},
+         familyi={V\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Passos},
+         familyi={P\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Cournapeau},
+         familyi={C\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Brucher},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Perrot},
+         familyi={P\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DE}{%
+         family={Duchesnay},
+         familyi={D\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HW+1}
-    \strng{fullhash}{HWSMWMGMZW1}
+    \strng{namehash}{PF+1}
+    \strng{fullhash}{PFVGGAMVTBGOBMPPWRDVVJPACDBMPMDE1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{Hen+12}
-    \field{title}{A Machine Learning Approach to Ranging Error Mitigation for
-  UWB Localization}
-    \list{institution}{3}{%
-      {Belgian American Education Foundation, the Charles Stark Draper
-  Laboratory Robust Distributed Sensor Networks Program, the Office of Naval
-  Research Young Investigator Award N00014-03-1-0489,}%
-      {the National Science Foundation under Grants ANI-0335256 and
-  ECCS-0636519.}%
-    }
-    \field{type}{techreport}
-    \field{journaltitle}{Chalmers Publication Library}
-    \field{year}{2012}
+    \field{labelalpha}{Ped+11}
+    \field{pages}{2825\bibrangedash 2830}
+    \field{title}{Scikit-learn: Machine Learning in {P}ython}
+    \field{volume}{12}
+    \field{journaltitle}{Journal of Machine Learning Research}
+    \field{year}{2011}
   \endentry
 
   \entry{CP_RSS}{article}{}
@@ -189,16 +211,6 @@
     \field{journaltitle}{Journal of Information and Telecommunication, 1:1,
   41-65, DOI: 10.1080/24751839.2017.1295659}
     \field{year}{2017}
-  \endentry
-
-  \entry{scikit}{article}{}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Sci}
-    \field{title}{Machine Learning in Python}
-    \verb{url}
-    \verb http://scikit-learn.org/stable/tutorial/machine_learning_map/index.ht
-    \verb ml
-    \endverb
   \endentry
 
   \entry{C4_5}{article}{}
@@ -249,8 +261,8 @@
   \entry{DefectPred}{article}{}
     \name{author}{2}{}{%
       {{hash=CA}{%
-         family={(23)\bibnamedelima C.},
-         familyi={\bibinitperiod\bibinitdelim C\bibinitperiod},
+         family={C.},
+         familyi={C\bibinitperiod},
          given={Anuradha},
          giveni={A\bibinitperiod},
       }}%
@@ -344,11 +356,12 @@
     \strng{fullhash}{DYLJl1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{DL}
+    \field{labelalpha}{DL07}
     \field{title}{Research on personal credit evaluation model based on
   bayesian network and association rules}
     \field{journaltitle}{International Conference on Wireless Communications,
   Networking and Mobile Computing}
+    \field{year}{2007}
   \endentry
 
   \entry{ML00}{article}{}
@@ -376,9 +389,10 @@
     \strng{fullhash}{DWADKMKA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{DWDMK}
+    \field{labelalpha}{DWDMK91}
     \field{title}{Instance-based learning algorithms}
     \field{journaltitle}{Machine Learning, vol. 6, pp., 37-66}
+    \field{year}{1991}
   \endentry
 
   \entry{ML01}{article}{}
@@ -400,11 +414,12 @@
     \strng{fullhash}{CSAGJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{CAG}
+    \field{labelalpha}{CAG13}
     \field{title}{Comparison of data mining classification algorithms for
   breast cancer prediction}
     \field{journaltitle}{Fourth International Conference on Computing,
   Communications and Networking Technologies (ICCCNT)}
+    \field{year}{2013}
   \endentry
 
   \entry{ML29}{article}{}
@@ -420,10 +435,11 @@
     \strng{fullhash}{JP1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{J.}
+    \field{labelalpha}{J.98}
     \field{title}{Fast Training of Support Vector Machines using Sequential
   Minimal Optimization}
     \field{journaltitle}{Advances in Kernel Methods - Support Vector Learning}
+    \field{year}{1998}
   \endentry
 
   \entry{ML30}{article}{}
@@ -445,11 +461,12 @@
     \strng{fullhash}{PNHO1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{PH}
+    \field{labelalpha}{PH14}
     \field{title}{Applicability of machine-learning techniques in predicting
   customer defection}
     \field{journaltitle}{IEEE 2014 International Symposium on Technology
   Management and Emerging Technologies (ISTMET)}
+    \field{year}{2014}
   \endentry
 
   \entry{ML31}{article}{}
@@ -477,11 +494,12 @@
     \strng{fullhash}{SMOKRND1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{SMKN}
+    \field{labelalpha}{SMKN13}
     \field{title}{Comparison of different classifiers for script identification
   from handwritten document}
     \field{journaltitle}{IEEE International Conference on Signal Processing,
   Computing and Control (ISPCC), pp.1-6}
+    \field{year}{2013}
   \endentry
 
   \entry{ML32}{article}{}
@@ -503,10 +521,11 @@
     \strng{fullhash}{YFRES1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{YRE}
+    \field{labelalpha}{YRE96}
     \field{title}{Experiments with a new boosting algorithm}
     \field{journaltitle}{3th International Conference on Machine Learning, San
   Francisco, pp. 148-156}
+    \field{year}{1996}
   \endentry
 
   \entry{ML33}{article}{}
@@ -528,10 +547,11 @@
     \strng{fullhash}{RSREM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{RRE}
+    \field{labelalpha}{RRE13}
     \field{title}{Classifying Spam Emails Using Text and Readability Features}
     \field{journaltitle}{IEEE 13th International Conference on Data Mining
   (ICDM, pp. 657-666}
+    \field{year}{2013}
   \endentry
 
   \entry{ML34}{article}{}
@@ -559,11 +579,12 @@
     \strng{fullhash}{SOSLIKSPM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{SOLISP}
+    \field{labelalpha}{SOLISP10}
     \field{title}{Classifying encryption algorithms using pattern recognition
   techniques}
     \field{journaltitle}{IEEE International Conference on Information Theory
   and Information Security (ICITIS), , pp. 1168-1172}
+    \field{year}{2010}
   \endentry
 
   \entry{ML35}{article}{}
@@ -579,9 +600,56 @@
     \strng{fullhash}{LB1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{L.}
+    \field{labelalpha}{L.96}
     \field{title}{Bagging predictors}
     \field{journaltitle}{Machine Learning. vol. 24, no. 2, pp.123-140}
+    \field{year}{1996}
+  \endentry
+
+  \entry{ML_UWB}{report}{}
+    \name{author}{4}{}{%
+      {{hash=HW}{%
+         family={Henk},
+         familyi={H\bibinitperiod},
+         given={Wymeersch},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Stefano},
+         familyi={S\bibinitperiod},
+         given={Maranò},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WMG}{%
+         family={Wesley},
+         familyi={W\bibinitperiod},
+         given={M.\bibnamedelima Gifford},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=MZW}{%
+         family={Moe},
+         familyi={M\bibinitperiod},
+         given={Z.\bibnamedelima Win},
+         giveni={Z\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HW+1}
+    \strng{fullhash}{HWSMWMGMZW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Hen+12}
+    \field{title}{A Machine Learning Approach to Ranging Error Mitigation for
+  UWB Localization}
+    \list{institution}{3}{%
+      {Belgian American Education Foundation, the Charles Stark Draper
+  Laboratory Robust Distributed Sensor Networks Program, the Office of Naval
+  Research Young Investigator Award N00014-03-1-0489,}%
+      {the National Science Foundation under Grants ANI-0335256 and
+  ECCS-0636519.}%
+    }
+    \field{type}{techreport}
+    \field{journaltitle}{Chalmers Publication Library}
+    \field{year}{2012}
   \endentry
 
   \entry{ML51}{article}{}
@@ -603,9 +671,10 @@
     \strng{fullhash}{CRCW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{CC}
+    \field{labelalpha}{CC06}
     \field{title}{Gaussian Processes for Machine Learning}
     \field{journaltitle}{Springer}
+    \field{year}{2006}
   \endentry
 
   \entry{Outliers}{article}{}
@@ -643,6 +712,134 @@
     \field{title}{lien concernant les ESD}
     \verb{url}
     \verb https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h3.htm
+    \endverb
+  \endentry
+
+  \entry{ML_algo}{report}{}
+    \name{author}{4}{}{%
+      {{hash=SB}{%
+         family={Sinem},
+         familyi={S\bibinitperiod},
+         given={Bozkurt},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Gulin},
+         familyi={G\bibinitperiod},
+         given={Elibol},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Serkan},
+         familyi={S\bibinitperiod},
+         given={Gunal},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=UY}{%
+         family={Ugur},
+         familyi={U\bibinitperiod},
+         given={Yayan},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SB+1}
+    \strng{fullhash}{SBGESGUY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Sin+15}
+    \field{title}{A Comparative Study on Machine Learning algorithms for Indoor
+  Positioning}
+    \list{institution}{2}{%
+      {This work is supported by The Scientific}%
+      {Technological Research Council of Turkey (TUBITAK) under grant number
+  1130024}%
+    }
+    \field{type}{techreport}
+    \field{year}{2015}
+  \endentry
+
+  \entry{WIKI1}{article}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wik}
+    \field{extraalpha}{1}
+    \field{title}{lien concernant la regression non paramétrique}
+    \verb{url}
+    \verb https://fr.wikipedia.org/wiki/R%C3%A9gression_non_param%C3%A9trique
+    \endverb
+  \endentry
+
+  \entry{MICRO}{article}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Mic}
+    \field{title}{lien concernant le concours Microsoft}
+    \verb{url}
+    \verb https://www.microsoft.com/en-us/research/event/microsoft-indoor-local
+    \verb ization-competition-ipsn-2014/
+    \endverb
+  \endentry
+
+  \entry{MIC}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=MM}{%
+         family={Michael},
+         familyi={M\bibinitperiod},
+         given={Mueller},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MM1}
+    \strng{fullhash}{MM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Mic17}
+    \field{title}{Système de localisation et de tracabilité des objets
+  communicant basse consommation}
+    \list{institution}{1}{%
+      {HES-SO Master}%
+    }
+    \field{type}{mathesis}
+    \field{year}{2017}
+  \endentry
+
+  \entry{WIKI2}{article}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wik}
+    \field{extraalpha}{3}
+    \field{title}{lien concernant NumPy}
+    \verb{url}
+    \verb https://fr.wikipedia.org/wiki/NumPy
+    \endverb
+  \endentry
+
+  \entry{WIKI3}{article}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wik}
+    \field{extraalpha}{4}
+    \field{title}{lien concernant Pandas}
+    \verb{url}
+    \verb https://fr.wikipedia.org/wiki/Pandas
+    \endverb
+  \endentry
+
+  \entry{DATASCI}{article}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Dat}
+    \field{title}{lien concernant le score F1}
+    \verb{url}
+    \verb https://datascience.stackexchange.com/questions/15989/micro-average-v
+    \verb s-macro-average-performance-in-a-multiclass-classification-settin/160
+    \verb 01
+    \endverb
+  \endentry
+
+  \entry{WIKI4}{article}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Wik}
+    \field{extraalpha}{2}
+    \field{title}{lien concernant le score F1}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/F1_score, https://fr.wikipedia.org/wiki
+    \verb /Pr%C3%A9cision_et_rappel
     \endverb
   \endentry
 \enddatalist

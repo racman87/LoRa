@@ -1,0 +1,123 @@
+%\usepackage{lmodern}
+%\usepackage[T1]{fontenc}
+%\usepackage{fancyhdr}         % Required for custom headers
+%\usepackage{lastpage}         % Required to determine the last page for the footer
+%\usepackage{extramarks}       % Required for headers and footers
+%\usepackage{graphicx}         % Required to insert images
+%\usepackage{courier}          % Required for the courier font
+%\usepackage[utf8x]{inputenc}
+%\usepackage[frenchb]{babel}
+%\usepackage{caption}
+%\usepackage{minted}           % Required for code syntax coloration
+%\usepackage{amsmath}
+%\usepackage{tikz}
+%\usepackage{epigraph}
+%\usepackage{titlesec}
+
+%\usepackage{enumitem}
+
+%\usepackage{etoolbox}
+
+\documentclass[french]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{babel}
+\usepackage{minted}
+
+
+%----------------------------------------------------------------------------------------
+% Minted syntaxic code coloration command redefinition and configuration
+%----------------------------------------------------------------------------------------
+
+%--- Console output -----------------------------------------------------------------
+% Console command in paragraph
+\newcommand{\cmdconsole}{
+	\mintinline{vctreestatus}
+}
+% Console output
+\newminted[codeconsole]{vctreestatus}{
+	frame=lines,
+	framesep=2mm,
+	baselinestretch=1.2,
+	breaklines=true,
+	fontsize=\footnotesize
+}
+
+%--- Bash code ----------------------------------------------------------------------
+% bash code in paragraph
+\newcommand{\cmdbash}{
+	\mintinline{bash}
+}
+
+% Bash code in document
+\newminted[codebash]{bash}{
+	frame=lines,
+	framesep=2mm,
+	baselinestretch=1.2,
+	breaklines=true,
+	fontsize=\footnotesize
+}
+
+% Bash code with line number in document
+\newminted[codebashlnb]{bash}{
+	frame=lines,
+	framesep=2mm,
+	baselinestretch=1.2,
+	fontsize=\footnotesize,
+	linenos,
+	breaklines=true,
+	stepnumber=5
+}
+
+% Bash code from file
+\newcommand{\icodebash}[1]{
+	\inputminted[%
+		frame=lines,
+		framesep=2mm,
+		baselinestretch=1.2,
+		fontsize=\footnotesize,
+		linenos,
+		breaklines=true,
+		stepnumber=5]{bash}{#1}
+}
+
+%--- C code -------------------------------------------------------------------------
+% C code in paragraph
+\newcommand{\cmdc}{
+	\mintinline{c}
+}
+
+% C code in document
+\newminted[codec]{c}{
+	frame=lines,
+	framesep=2mm,
+	baselinestretch=1.2,
+	fontsize=\footnotesize,
+	%linenos,
+	breaklines=true,
+	stepnumber=5
+}
+
+% C code from file
+\newcommand{\icodec}[1]{
+	\inputminted[%
+		frame=lines,
+		framesep=2mm,
+		baselinestretch=1.2,
+		fontsize=\footnotesize,
+		linenos,
+		breaklines=true,
+		stepnumber=5]{c}{#1}
+}
+
+%----------------------------------------------------------------------------------------
+% Diff in document
+\newminted[minteddiff]{udiff}{
+	frame=lines,
+	framesep=2mm,
+	baselinestretch=1.2,
+	breaklines=true,
+	fontsize=\footnotesize
+}
+

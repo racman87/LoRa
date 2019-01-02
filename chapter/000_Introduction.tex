@@ -5,7 +5,7 @@ La précision du positionnement intérieur reste quelque chose de très importan
 
 Les systèmes de localisation basés sur GPS souffrent de la détérioration de la précision et sont presque indisponibles dans les environnements intérieurs. Pour les environnements intérieurs, de nombreuses technologies de systèmes de positionnement ont été conçues sur la base de la vision, de la détection infrarouge ou ultrasonore, des champs magnétiques de la terre, des accéléromètres / gyromètres, des balises BLE ou de la communication WiFi. Bien que la création de ces nouvelles applications ait été couronnée de succès, le coût de ces récepteurs, leur consommation d’énergie et leur limitation aux environnements extérieurs excluent de nombreuses applications.
 
-La figure \ref{fig:MethodePos} montre un graphique comparatif de la précision de positionnement concernant différentes technologie \cite{INPOS}. 
+La Figure \ref{fig:MethodePos} montre un graphique comparatif de la précision de positionnement concernant différentes technologie \cite{INPOS}. Ce graphique montre qu'un système utilisant la vision apporte une grande précision. Mais il peut poser problèmes dans certaine application où il serait nécessaire de mettre beaucoup de caméra et cela implique souvent des traitements assez complexe. En comparaison, un système à ultrason est un peu comparble à un système infrarouge, ils sont meilleurs marché. Il est également nécessaire de placer un grand nombre de capteur selon les utilisations. Concecrnant les systèmes RFID, ils sont de portée très courte qui se limite à quelques mètres et la précision est dégradée par rapport aux systèmes précédents. Les deux derniers systèmes qui sont les réseaux sans fils (bluetooth et WLAN) possèdent beaucoup d'avantage car ils sont largement répendus et possèdent une bonne couverture. Un gros incovénient de ces deux technologies est qu'elles sont gourmandes en énergie et ne peuvent pas fonctionner sur batterie.
 
 \begin{figure}[htp]
 	\begin{center}
@@ -16,25 +16,24 @@ La figure \ref{fig:MethodePos} montre un graphique comparatif de la précision d
 \end{figure}
 
 La géolocalisation avec LoRa est une possibilité séduisante et probablement l'un des meilleurs candidats pour le positionnement intérieur. Le faible coût des infrastructures et des noeuds finaux ainsi que la disponibilité à l'échelle de la ville ou du pays pourraient permettre de nombreuses nouvelles applications. Il n’est donc pas surprenant que les chercheurs et les entités commerciales se soient mis au travail sur ce problème au cours des derniers mois. Cependant, plusieurs défis restent à relever pour qu'un tel système devienne pratique.
-Premièrement, la précision de localisation en extérieur qui peut actuellement être atteinte avec LoRa est comprise entre 30 et 50 mètres, ce qui n’est pas suffisant pour de nombreuses applications en milieu urbain. Deuxièmement, très peu d’expérience est disponible pour la conception de systèmes de positionnement intérieurs avec LoRa.
+Premièrement, la précision de localisation en extérieur qui peut actuellement être atteinte avec LoRa est comprise entre 30 et 50 mètres, ce qui n’est pas suffisant pour de nombreuses applications en milieu urbain. Deuxièmement, LoRa peut également être utilisé pour un positionnement intérieur. A ce jour, très peu d’expériences sont disponibles pour la conception de tel systèmes et c'est pourquoi il est nécessaire d'effectuer différentes recherche (dont ce travail) afin de connaitre la précision qui peut être atteinte.
 
-La portée en milieu rural est d'environ 15km alors qu'il est de 5km dans un milieu urbain cela grâce à la bonne sensibilité du récepteur (-130dBm). Une chose intéressant est la bande passante qui est plus large que d'autres technologies qui permet de distinguer différents chemins du même signal. Sagemcom ont obtenus des bons résultats au niveau de la précision qui est de environ 4 mètres.\cite{ML_indoor} 
+La portée en milieu rural est d'environ 15km alors qu'il est de 5km dans un milieu urbain cela grâce à la bonne sensibilité du récepteur (-130dBm). Une chose intéressant est la bande passante qui est plus large que d'autres technologies qui permet de distinguer différents chemins du même signal. Sagemcom ont obtenus des bons résultats au niveau de la précision qui est de environ 4 mètres.\cite{ML_indoor} Un autre aspect très important qui fait de la technologie LoRa est un très bon canditdat pour du positionnement intérieur est sa très faible consommation. 
 
-L’objectif général de ce projet est de développer les technologies permettant d'améliorer la précision de la géolocalisation en intérieur sur la base de la technologie LoRa. 
+L’objectif général de ce projet est d'étudier diverses technologies d'apprentissage (Machin Learning) permettant d'améliorer la précision de la géolocalisation en intérieur sur la base de la technologie LoRa. 
 
-Le positionnement intérieur reste quelque chose de très intéressant et important car il peut être utile dans plusieurs domaines comme : La gestion de stocks, la localisation de personnes âgées dans des homes, la localisation chez eux des personnes possédant un bracelet de "prisonnier", etc...
+Le positionnement intérieur reste très intéressant et important car il peut être utile dans plusieurs domaines comme : La gestion de stocks, la localisation de personnes âgées dans des homes, la localisation chez eux des personnes possédant un bracelet de "prisonnier", etc...
 
 \section{Aspect Novateur}
-Ce travail d'approfondissement doit évaluer une nouvelle approche pour améliorer le positionnement intérieur. En s'appuyant sur les capacités étendues des nouveaux circuits intégrés LoRa, ce projet développera et déploiera un système de localisation capable d'améliorer la précision de la position atteinte par les systèmes de localisation basés sur LoRa existants reposant sur des mécanismes TDOA ou de "ranging". À cette fin, une exploration et une comparaison des différentes techniques "machine learning/deep learning" pour le positionnement basé sur le "fingerprinting" seront effectuées.
+Ce travail d'approfondissement va permettre d'évaluer une nouvelle approche pour améliorer le positionnement intérieur. En s'appuyant sur les capacités étendues des nouveaux circuits intégrés LoRa, ce projet développera et déploiera un système de localisation capable d'améliorer la précision de la position atteinte par les systèmes de localisation basés sur LoRa existants reposant sur des mécanismes TDOA ou de "ranging". À cette fin, une exploration et une comparaison des différentes techniques "machine learning/deep learning" pour l'amélioration de la précision du positionnement basé sur le "fingerprinting" seront effectuées.
 
-L'aspect novateur du projet et d'intégrer un mécanisme d'apprentissage de la position afin d'améliorer la précision. 
+L'aspect novateur du projet est d'intégrer un mécanisme d'apprentissage de la position afin d'améliorer la précision du positionnement intérieur. 
 
+\section{Structure du rapport}
+\todo{Compléter cette partie en fin de rapport quand la structure est définie}
 
-\section{Objectifs et tâches à réaliser}
 \begin{enumerate}
-	\item Etudier le cahier des charges
 	\item Etudier l’état de l’art des techniques à utiliser dans le cadre du projet, en particulier les systèmes de localisation indoor basés sur des techniques d’apprentissage, et réunir une documentation (env. 20% effort)
-	\item Etablir un planning pour l’ensemble du projet.
 	\item Définir un plan des tests à effectuer.
 	\item Définir les procédures de test
 	\item Définir le setup pour la collecte de données de localisation
@@ -42,12 +41,7 @@ L'aspect novateur du projet et d'intégrer un mécanisme d'apprentissage de la p
 	\item Implémentation de la solution ML retenue.
 	\item Tester le système selon le protocole préétabli.
 	\item Faire des propositions pour améliorer les performances de l’algorithme et, si possible, les implémenter.
-	\item Rédiger le rapport et documenter l’ensemble du projet.
 \end{enumerate}
-
-\section{Structure du rapport}
-\todo{Compléter cette partie en fin de rapport quand la structure est définie}
-
 
 
 %\begin{enumerate}

@@ -1,63 +1,14 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: biblatex.bst
+A level-1 auxiliary file: chapter/000_abstract.aux
+A level-1 auxiliary file: chapter/000_remerciements.aux
 A level-1 auxiliary file: chapter/000_introduction.aux
 A level-1 auxiliary file: chapter/000_etat_art.aux
+A level-1 auxiliary file: chapter/000_Mesures.aux
+A level-1 auxiliary file: chapter/000_Traitement.aux
+A level-1 auxiliary file: chapter/000_Conclusion.aux
 Database file #1: main-blx.bib
 Database file #2: bib/bibliography.bib
-I was expecting a `,' or a `}'---line 90 of file bib/bibliography.bib
- :  
- :  year    = {2007},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 97 of file bib/bibliography.bib
- :  
- :  year    = {1991},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 104 of file bib/bibliography.bib
- :  
- :  year    = {2013},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 111 of file bib/bibliography.bib
- :  
- :  year    = {1998},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 118 of file bib/bibliography.bib
- :  
- :  year    = {2014},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 125 of file bib/bibliography.bib
- :  
- :  year    = {2013},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 132 of file bib/bibliography.bib
- :  
- :  year    = {1996},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 139 of file bib/bibliography.bib
- :  
- :  year    = {2013},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 146 of file bib/bibliography.bib
- :  
- :  year    = {2010},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 153 of file bib/bibliography.bib
- :  
- :  year    = {1996},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 165 of file bib/bibliography.bib
- :  
- :  year    = {2006},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "WIKI"
 Biblatex version: 3.8
-(There were 11 error messages)
+(There was 1 warning)
