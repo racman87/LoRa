@@ -348,17 +348,36 @@ La Figure \ref{fig:matPosConvTx} montre les résultats obtenus lorsque les posit
 \end{figure}
 
 \section{Résumé des résultats}
+La Figure \ref{fig:result} montre un résumé des résultats présentés dans ce rapport. La solution la plus optimiste a été mise en vert. Ce n'est pas celle qui donne les meilleurs résultats au niveau des points SxT mais malgré cela c'est elle qui offre la plus grande liberté de traitements et d'améliorations. 
+
+La solution qui utilise uniquement la position convergée donne effectivement de bons résultats mais si le nombre de points est augmenté ils vont commencé de se mélanger et il ne sera plus possible de les différencier. Les positions proches du maitre seront toujours confondue alors qu'avec la solution d'utiliser les données brutes ces positions sont différenciable. Lorsque les données brutes de "ranging" sont utilisées il est possible d'utiliser des traitements sur ces mesures comme la moyenne, la déviation standard, la variance, etc... chose qui n'est pas possible lorsqu'on possède uniquement l'information des coordonnées du point x et y. 
 
 \begin{figure}[htp]
 	\begin{center}
-		\includegraphics[scale=0.5]{figures/Resultats.png}
+		\includegraphics[scale=0.7]{figures/Resultats.png}
 		\caption{Résumé des différents résultats obtenus qui sont présentés dans ce rapport}
 		\label{fig:result} %% NOTE: always label *after* caption!
 	\end{center}
 \end{figure}
 
-
 \chapter{Problèmes rencontrés et améliorations}
+Ce chapitre va traiter des problèmes qui ont été rencontré tout au long de ce travaille d'approfondissement ainsi que des améliorations possibles.
+
+Ce travaille est basé sur une thèse de Master que Michael Mueller avait réalisé \cite{MIC}. Durant ce travail il avait mis en place un programme permettant de calculer une position dans un local intérieur. Réutiliser ce programme devait permettre d'acquérir facilement des mesures mais cela n'a pas été le cas. Dans un premier temps il a été nécessaire de modifier le programme car le système de prise de mesures n'était pas adapté. Cela dans le sens qu'il effectuait des mesures en permanence en stockant les résultats et en recalculant à chaque fois une position par rapport à toutes les mesures. 
+
+Ce qui a été problématique et la stabilité du système qui à tout moment s'arrête de fonctionner et ne donne plus de résultat utilisable. Les esclaves cessaient de fonctionner de temps en temps et cela faisait qu'une mesure prenait un temps conséquent. Il a aussi été remarqué que lorsque le système fonctionnait durant de longues heures d'affilées les bug étaient de plus en plus nombreux par finir de n'être plus utilisable. 
+
+De plus, lorsque les mesures de positions convergées ont été réalisée afin d'obtenir une série de mesure sur une position (40 mesures sur les 40 canaux) il était nécessaire d'avoir une demi journée et de surveiller le système pour que un des esclave ne s'éteigne pas. 
+
+Au niveau des améliorations, il serait nécessaire de travailler sur le programme de prise de mesures afin de comprendre pourquoi le système s'arrête parfois. Car actuellement, la prise est automatique mais si un des esclaves s'arrête, il faut le redémarrer et cela ne peut pas être fait de manière automatique. 
+
+Un autre point serait de travailler sur un premier tris des mesures afin d'utiliser uniquement les mesures qui donnes de bons résultats et supprimer les autres. Cela permettrait d'avoir de meilleurs résultats finaux. 
+
+Concernant la compréhension du système complet il serait nécessaire de faire les mesures dans un environnement maitrisé où les réflexions sont moindre ce qui n'est pas du tout le cas dans le laboratoire. La quantité de mesures prises doit également être augmentée afin de pouvoir poursuivre le travail et se pencher sur une analyse par régression. 
+
+Il serait également nécessaire de travailler sur le positionnement des esclaves et du maitre. Peut -être qu'il serait intéressant d'ajouter un second maitre et de les placer au extrémité plutôt qu'au centre du local. 
+
+Finalement, l'intégrations de la mesure du RSSI pourrait être un candidat très intéressant pour compléter l'analyse. 
 
 %\begin{lstlisting}
 % for i=0 to Array.length(t)-1 do
