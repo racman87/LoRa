@@ -4,7 +4,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e} / Abstact}{iii}{chapter*.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Remerciements}{v}{chapter*.4}
+\contentsline {chapter}{\nonumberline Remerciements}{v}{chapter*.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -66,15 +66,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.2}Prise de donn\IeC {\'e}es brutes}{20}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Modification du programme lr24\_resolver.py}{20}{section*.28}
+\contentsline {subsubsection}{\nonumberline Modification du programme lr24\_resolver.py}{21}{section*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Structure des donn\IeC {\'e}es}{21}{section*.30}
+\contentsline {subsubsection}{\nonumberline Structure des donn\IeC {\'e}es}{22}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Prise de donn\IeC {\'e}es de positions converg\IeC {\'e}es}{21}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Prise de donn\IeC {\'e}es de positions converg\IeC {\'e}es}{22}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Modification du programme lr24\_resolver.py}{23}{section*.32}
+\contentsline {subsubsection}{\nonumberline Modification du programme lr24\_resolver.py}{22}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Structure des donn\IeC {\'e}es}{24}{section*.34}
+\contentsline {subsubsection}{\nonumberline Structure des donn\IeC {\'e}es}{24}{section*.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Traitement des donn\IeC {\'e}es et classification}{25}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -90,11 +90,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}R\IeC {\'e}sultats en utilisant les donn\IeC {\'e}es de "ranging"}{30}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline R\IeC {\'e}sultat en utilisant toutes les donn\IeC {\'e}es de ranging brutes}{31}{section*.42}
+\contentsline {subsubsection}{\nonumberline R\IeC {\'e}sultat en utilisant toutes les donn\IeC {\'e}es de ranging brutes}{31}{section*.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline R\IeC {\'e}sultat en utilisant la position non converg\IeC {\'e}}{33}{section*.46}
+\contentsline {subsubsection}{\nonumberline R\IeC {\'e}sultat en utilisant la position non converg\IeC {\'e}}{33}{section*.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Meilleur r\IeC {\'e}sultat obtenu}{33}{section*.49}
+\contentsline {subsubsection}{\nonumberline Meilleur r\IeC {\'e}sultat obtenu}{33}{section*.48}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}R\IeC {\'e}sultats en utilisant les donn\IeC {\'e}es de position converg\IeC {\'e}es}{37}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
@@ -104,7 +104,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Conclusion}{43}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliographie}{45}{chapter*.58}
+\contentsline {chapter}{\nonumberline Bibliographie}{45}{chapter*.57}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Cahier des charges}{49}{appendix.A}
 \defcounter {refsection}{0}\relax 

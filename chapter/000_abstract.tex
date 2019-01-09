@@ -3,7 +3,7 @@ Le défi d'avoir une localisation intérieure est de plus en plus présent dans 
 
 L'objectif de ce projet d'approfondissement est d'étudier la possibilité d'amélioration de la précision du positionnement intérieur grâce à des algorithmes d'apprentissage tels que "support vector machine", "random forest", "K-nearest neighbour", etc. Le système de positionnement de départ est basée sur la technologie LoRa 2.4GHz intégrée dans un circuit radio SX1280 de chez Semtech. 
 
-Un logiciel d'apprentissage a été développé afin de tester différents scénarios par rapport à des mesures qui ont été prises dans le laboratoire de St-Imier. Ces différents scénarios comportent des points qui ont été mesurés aux mêmes endroits, aux mêmes endroits mais à des moments différents en ayant légèrement modifié la position et des points placés autour des points de référence. 
+Un logiciel d'apprentissage a été développé afin de tester différents scénarios par rapport à des mesures qui ont été prises dans le laboratoire de la HE-ARC à St-Imier. Ces différents scénarios comportent des points qui ont été mesurés aux mêmes endroits sans bouger l'espion (Sx - points de référence) et aussi aux mêmes endroits mais à des moments différents en ayant légèrement modifié la position (SxT - points de test) et également des points placés autour des points de référence (Tx - point pour l'évaluation des performances).
 
 Les résultats obtenus sont encourageants concernant la classification, mais il serait nécessaire d'améliorer le système en intégrant une régression pour parvenir à localiser des points complètement inconnus. Il serait également nécessaire de retoucher le pré-traitement des mesures brutes ainsi que simplifier la procédure de récolte de données.
   
@@ -12,5 +12,10 @@ Les résultats obtenus sont encourageants concernant la classification, mais il 
 %\chapter{Résumé}
 {\let\clearpage\relax\par \chapter*{Abstract}}
 
-\todo{Traduire en Anglais}
-	
+The challenge of having an indoor location is more and more present in everyday life and becomes very useful for the industry, but also for monitoring people for example. Outside, there is a multitude of technologies allowing it (GPS, Wifi, vision, etc.) while inside very few technologies have proven themselves.
+
+The aim of this project is to study the possibility of improving the accuracy of the indoor positioning thanks to machine learning algorithms such as "support vector machine", "random forest", "K-nearest neighbor" etc. The initial positioning system is based on the LoRa 2.4GHz technology integrated in Semtech's SX1280 radio circuit.
+
+A machine learning software has been developed to test different scenarios with respect to measurements taken in the HE-ARC's laboratory in St-Imier. These different scenarios include points that have been measured in the same places without moving the spy (Sx - reference points) and also in the same places but at different times having slightly modified the position (SxT - test points) and also points placed around reference points (Tx - point for performance evaluation).
+
+The results obtained are encouraging with regard to classification, but it would be necessary to improve the system by integrating a regression in order to locate completely unknown points. It would also be necessary to review the pre-processing of raw measurements as well as simplify the data collection procedure.

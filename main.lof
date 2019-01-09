@@ -6,99 +6,99 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces \IeC {\'E}tat de l'art des diff\IeC {\'e}rentes m\IeC {\'e}thodes de positionnement int\IeC {\'e}rieur \cite {INPOS}\relax }}{1}{figure.caption.7}
+\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces \IeC {\'E}tat de l'art des diff\IeC {\'e}rentes m\IeC {\'e}thodes de positionnement int\IeC {\'e}rieur \cite {INPOS}\relax }}{1}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Comment choisir un algorithme ML \cite {scikit}\relax }}{3}{figure.caption.8}
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Comment choisir un algorithme ML \cite {scikit}\relax }}{3}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces a) exemple de classification b) exemple de r\IeC {\'e}gression\relax }}{4}{figure.caption.9}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces a) exemple de classification b) exemple de r\IeC {\'e}gression\relax }}{4}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Phase de construction et d'apprentissage \cite {ML_algo}\relax }}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Phase de construction et d'apprentissage \cite {ML_algo}\relax }}{8}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces R\IeC {\'e}sultats des pr\IeC {\'e}cisons pour la classification par b\IeC {\^a}timents \cite {ML_algo}\relax }}{8}{figure.caption.11}
+\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces R\IeC {\'e}sultats des pr\IeC {\'e}cisons pour la classification par b\IeC {\^a}timents \cite {ML_algo}\relax }}{8}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces R\IeC {\'e}sultats de la pr\IeC {\'e}cision pour la classification par \IeC {\'e}tage.\cite {ML_algo}\relax }}{9}{figure.caption.12}
+\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces R\IeC {\'e}sultats de la pr\IeC {\'e}cision pour la classification par \IeC {\'e}tage.\cite {ML_algo}\relax }}{9}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces R\IeC {\'e}sultats de la pr\IeC {\'e}cision pour la classification par r\IeC {\'e}gion. \cite {ML_algo}\relax }}{9}{figure.caption.13}
+\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces R\IeC {\'e}sultats de la pr\IeC {\'e}cision pour la classification par r\IeC {\'e}gion. \cite {ML_algo}\relax }}{9}{figure.caption.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.7}{\ignorespaces R\IeC {\'e}sultat de la pr\IeC {\'e}cision des algorithmes d'apprentissage.\cite {ML_algo}\relax }}{9}{figure.caption.14}
+\contentsline {figure}{\numberline {\relax 2.7}{\ignorespaces R\IeC {\'e}sultat de la pr\IeC {\'e}cision des algorithmes d'apprentissage.\cite {ML_algo}\relax }}{9}{figure.caption.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces R\IeC {\'e}sultats du temps de traitement des algorithmes d'apprentissage\cite {ML_algo}\relax }}{10}{figure.caption.15}
+\contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces R\IeC {\'e}sultats du temps de traitement des algorithmes d'apprentissage\cite {ML_algo}\relax }}{10}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.9}{\ignorespaces Ranging error - LOS and NLOS \cite {ML_UWB}\relax }}{11}{figure.caption.16}
+\contentsline {figure}{\numberline {\relax 2.9}{\ignorespaces Ranging error - LOS and NLOS \cite {ML_UWB}\relax }}{11}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.10}{\ignorespaces Les deux phases du fingerprinting\relax }}{12}{figure.caption.17}
+\contentsline {figure}{\numberline {\relax 2.10}{\ignorespaces Les deux phases du fingerprinting\relax }}{12}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.11}{\ignorespaces Performance de la pr\IeC {\'e}cision du fingerprint lors de la comp\IeC {\'e}tition Microsoft IPSN 2014 competition \cite {CP_RSS}\relax }}{12}{figure.caption.18}
+\contentsline {figure}{\numberline {\relax 2.11}{\ignorespaces Performance de la pr\IeC {\'e}cision du fingerprint lors de la comp\IeC {\'e}tition Microsoft IPSN 2014 competition \cite {CP_RSS}\relax }}{12}{figure.caption.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.12}{\ignorespaces Performance de la pr\IeC {\'e}cision de W-KNN, Na\IeC {\"\i }ve Bayes et r\IeC {\'e}seau de neurones, mais aussi l'impacte du nombre de donn\IeC {\'e}es d'entrainement\cite {CP_RSS}\relax }}{13}{figure.caption.19}
+\contentsline {figure}{\numberline {\relax 2.12}{\ignorespaces Performance de la pr\IeC {\'e}cision de W-KNN, Na\IeC {\"\i }ve Bayes et r\IeC {\'e}seau de neurones, mais aussi l'impacte du nombre de donn\IeC {\'e}es d'entrainement\cite {CP_RSS}\relax }}{13}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces Summary of the three fingerprinting test beds used in this article \cite {CP_RSS}\relax }}{14}{figure.caption.20}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Plan des mesures effectu\IeC {\'e}es et du setup\relax }}{16}{figure.caption.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Montre le setup pour la prise de mesure\relax }}{16}{figure.caption.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Montre le plan r\IeC {\'e}el du laboratoire\relax }}{17}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Montre le plan r\IeC {\'e}el du laboratoire\relax }}{17}{figure.caption.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Blocs principaux du logiciel de prise de mesure\relax }}{18}{figure.caption.25}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Interface graphique du soft de prise de mesures\relax }}{19}{figure.caption.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Fonctionnement du mode spy et signification des mesures brutes\relax }}{21}{figure.caption.27}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Diagramme expliquant la prise de mesures des valeurs de ranging\relax }}{22}{figure.caption.29}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Structure des donn\IeC {\'e}es des mesures de localisation\relax }}{22}{figure.caption.31}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Diagramme expliquant la prise de mesures des positions converg\IeC {\'e}es\relax }}{23}{figure.caption.33}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Structure des donn\IeC {\'e}es de mesures contenant uniquement la valeur des positions converg\IeC {\'e}es\relax }}{24}{figure.caption.35}
+\contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces Summary of the three fingerprinting test beds used in this article \cite {CP_RSS}\relax }}{14}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Flux de traitement de l'information\relax }}{25}{figure.caption.36}
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces Plan des mesures effectu\IeC {\'e}es et du setup\relax }}{16}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Donn\IeC {\'e}es sous forme de dataframe pour le traitement et l'extraction des caract\IeC {\'e}ristiques\relax }}{27}{figure.caption.37}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces Montre le setup pour la prise de mesure\relax }}{16}{figure.caption.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Partage des donn\IeC {\'e}es\relax }}{28}{figure.caption.38}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces Montre le plan r\IeC {\'e}el du laboratoire\relax }}{17}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Influence des param\IeC {\`e}tres C et gamma\relax }}{29}{figure.caption.39}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces Montre le plan r\IeC {\'e}el du laboratoire\relax }}{17}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Repr\IeC {\'e}sentation de la pr\IeC {\'e}cision et du rappel \cite {WIKI}\relax }}{30}{figure.caption.40}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Blocs principaux du logiciel de prise de mesure\relax }}{18}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Repr\IeC {\'e}sentation des points non converg\IeC {\'e} par rapport aux positions r\IeC {\'e}elles\relax }}{31}{figure.caption.41}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces Interface graphique du soft de prise de mesures\relax }}{19}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Matrice de confusion obtenue en utilisant les points Sx et les caract\IeC {\'e}ristiques de "ranging"\relax }}{32}{figure.caption.43}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces Fonctionnement du mode spy et signification des mesures brutes\relax }}{20}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Matrice de confusion obtenue en utilisant les points de tests SxT et les caract\IeC {\'e}ristiques de "ranging" de la 1\IeC {\`e}re et 2\IeC {\`e}me mesures de l'esclave\relax }}{32}{figure.caption.44}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces Diagramme expliquant la prise de mesures des valeurs de ranging\relax }}{21}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Matrice de confusion obtenue en utilisant les points de tests SxT et les caract\IeC {\'e}ristiques de "ranging" de la 2\IeC {\`e}me mesure de l'esclave uniquement\relax }}{33}{figure.caption.45}
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces Structure des donn\IeC {\'e}es des mesures de localisation\relax }}{22}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces Matrice de confusion obtenue en utilisant les points Sx et la caract\IeC {\'e}ristique de position\relax }}{34}{figure.caption.47}
+\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces Diagramme expliquant la prise de mesures des positions converg\IeC {\'e}es\relax }}{23}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Matrice de confusion obtenue en utilisant les points SxT et la caract\IeC {\'e}ristique de position\relax }}{34}{figure.caption.48}
+\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Structure des donn\IeC {\'e}es de mesures contenant uniquement la valeur des positions converg\IeC {\'e}es\relax }}{24}{figure.caption.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces Matrice de confusion obtenue pour la meilleure solution en utilisant les donn\IeC {\'e}es des points Sx\relax }}{35}{figure.caption.50}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces Matrice de confusion pour la meilleure solution en utilisant les points de tests SxT\relax }}{36}{figure.caption.51}
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces Flux de traitement de l'information\relax }}{25}{figure.caption.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.14}{\ignorespaces Matrice de confusion pour les valeurs de la position converg\IeC {\'e}e avec des points de tests positionn\IeC {\'e}s autour des points entrain\IeC {\'e}s\relax }}{36}{figure.caption.52}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces Donn\IeC {\'e}es sous forme de dataframe pour le traitement et l'extraction des caract\IeC {\'e}ristiques\relax }}{27}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.15}{\ignorespaces Repr\IeC {\'e}sentation des points converg\IeC {\'e}s par rapport aux positions r\IeC {\'e}elles\relax }}{37}{figure.caption.53}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces Partage des donn\IeC {\'e}es\relax }}{28}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.16}{\ignorespaces Matrice de confusion pour les valeurs de la position converg\IeC {\'e}e avec des points positionn\IeC {\'e}s \IeC {\`a} la m\IeC {\^e}me place\relax }}{38}{figure.caption.54}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces Influence des param\IeC {\`e}tres C et gamma\relax }}{29}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.17}{\ignorespaces Matrice de confusion pour les valeurs de la position converg\IeC {\'e}e avec des points de tests positionn\IeC {\'e}s \IeC {\`a} la m\IeC {\^e}me place\relax }}{38}{figure.caption.55}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces Repr\IeC {\'e}sentation de la pr\IeC {\'e}cision et du rappel \cite {WIKI}\relax }}{30}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.18}{\ignorespaces Matrice de confusion pour les valeurs de la position converg\IeC {\'e}e avec des points de tests positionn\IeC {\'e}s autour des points entrain\IeC {\'e}s\relax }}{39}{figure.caption.56}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces Repr\IeC {\'e}sentation des points non converg\IeC {\'e} par rapport aux positions r\IeC {\'e}elles\relax }}{31}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\relax 4.19}{\ignorespaces R\IeC {\'e}sum\IeC {\'e} des diff\IeC {\'e}rents r\IeC {\'e}sultats obtenus qui sont pr\IeC {\'e}sent\IeC {\'e}s dans ce rapport\relax }}{39}{figure.caption.57}
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces Matrice de confusion obtenue en utilisant les points Sx et les caract\IeC {\'e}ristiques de "ranging"\relax }}{32}{figure.caption.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces Matrice de confusion obtenue en utilisant les points de tests SxT et les caract\IeC {\'e}ristiques de "ranging" de la 1\IeC {\`e}re et 2\IeC {\`e}me mesures de l'esclave\relax }}{32}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces Matrice de confusion obtenue en utilisant les points de tests SxT et les caract\IeC {\'e}ristiques de "ranging" de la 2\IeC {\`e}me mesure de l'esclave uniquement\relax }}{33}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces Matrice de confusion obtenue en utilisant les points Sx et la caract\IeC {\'e}ristique de position\relax }}{34}{figure.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces Matrice de confusion obtenue en utilisant les points SxT et la caract\IeC {\'e}ristique de position\relax }}{34}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces Matrice de confusion obtenue pour la meilleure solution en utilisant les donn\IeC {\'e}es des points Sx\relax }}{35}{figure.caption.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces Matrice de confusion pour la meilleure solution en utilisant les points de tests SxT\relax }}{36}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.14}{\ignorespaces Matrice de confusion pour les valeurs de la position converg\IeC {\'e}e avec des points de tests positionn\IeC {\'e}s autour des points entrain\IeC {\'e}s\relax }}{36}{figure.caption.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.15}{\ignorespaces Repr\IeC {\'e}sentation des points converg\IeC {\'e}s par rapport aux positions r\IeC {\'e}elles\relax }}{37}{figure.caption.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.16}{\ignorespaces Matrice de confusion pour les valeurs de la position converg\IeC {\'e}e avec des points positionn\IeC {\'e}s \IeC {\`a} la m\IeC {\^e}me place\relax }}{38}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.17}{\ignorespaces Matrice de confusion pour les valeurs de la position converg\IeC {\'e}e avec des points de tests positionn\IeC {\'e}s \IeC {\`a} la m\IeC {\^e}me place\relax }}{38}{figure.caption.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.18}{\ignorespaces Matrice de confusion pour les valeurs de la position converg\IeC {\'e}e avec des points de tests positionn\IeC {\'e}s autour des points entrain\IeC {\'e}s\relax }}{39}{figure.caption.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\relax 4.19}{\ignorespaces R\IeC {\'e}sum\IeC {\'e} des diff\IeC {\'e}rents r\IeC {\'e}sultats obtenus qui sont pr\IeC {\'e}sent\IeC {\'e}s dans ce rapport\relax }}{39}{figure.caption.56}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

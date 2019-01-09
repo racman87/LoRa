@@ -66,7 +66,7 @@ Chaque carte est configurée séparément pour fonctionner selon sa fonction (es
 
 Cette section introduit le programme de prise de mesure qui avait été développé. Ce programme permet avant tout d’exploiter pleinement le protocole de localisation, ainsi que les algorithmes de résolution de position. 
 
-Le système peut être composé d’un ou plusieurs esclaves et d’un ou plusieurs maîtres. Les espions font bien entendu partie intégrante également. Le programme effectue des mesures de distance, résout des positions des différents espions et les affiche dans une interface graphique. Le tout est configurable au travers d’un simple fichier de configuration au format texte.
+Le système peut être composé d’un ou plusieurs esclaves et d’un ou plusieurs maîtres. Les espions font bien entendu partie intégrante du setup. Le programme effectue des mesures de distance, résout des positions des différents espions et les affiche dans une interface graphique. Le tout est configurable au travers d’un simple fichier de configuration au format texte.
 
 Dans le cadre de ce projet, le fichier de configuration (stage.cfg) contient les informations (position, id,etc.) du "maitre" ainsi que des quatre esclaves. 
 
@@ -153,7 +153,7 @@ La prise de données brutes consiste à mémoriser les valeurs brutes des inform
 
 \begin{figure}[htp]
  \begin{center}
-  \includegraphics[scale=0.7]{figures/mesures3.png}
+  \includegraphics[scale=0.6]{figures/mesures3.png}
   \caption{Fonctionnement du mode spy et signification des mesures brutes}
   \label{fig:mesures3} %% NOTE: always label *after* caption!
  \end{center}
@@ -162,6 +162,14 @@ La prise de données brutes consiste à mémoriser les valeurs brutes des inform
 \subsubsection{Modification du programme lr24\_resolver.py}
 Le programme Lr24\_resolver.py n'a pas pu être utilisé de la manière dont il avait été créé, car il était destiné à effectuer des mesures continues afin d'améliorer au fil du temps la précision. Dans le cadre de ce projet, il est nécessaire de pouvoir maitriser la prise de mesures ainsi que gérer le nombre d'échantillons enregistrés. La Figure \ref{fig:mesures} montre de quelle manière sont prises les données.
 
+\begin{figure}[htp]
+	\begin{center}
+		\includegraphics[scale=0.7]{figures/PriseMesures.png}
+		\caption{Diagramme expliquant la prise de mesures des valeurs de ranging}
+		\label{fig:mesures} %% NOTE: always label *after* caption!
+	\end{center}
+\end{figure}
+
 Il a été nécessaire de modifier la fonction new\_burst\_available(burst\_list) du fichier Lr24\_resolver.py afin de mémoriser les huit premiers burst qui arrivent depuis la carte "maitre". De ces "burst" sera uniquement mémorisée la valeur de la différence de distance calculée par l'espion. Cette différence de distance est obtenue grâce au mode "ranging" de la communication LoRa. Un "burst" comprend quarante informations qui sont liées aux quarante canaux de mesures. 
 
 Une fois que les huit bursts ont été reçus, le calcul de position, s’il existe, est mémorisé puis remis à zéro pour la mesure suivante. Il est possible de sélectionner le nombre de mesures désirées grâce à la variable "measures\_count\_des". Quand ce nombre est atteint, le programme s'arrête automatiquement, sinon il continue d'effectuer les mesures.
@@ -169,14 +177,6 @@ Une fois que les huit bursts ont été reçus, le calcul de position, s’il exi
 La fonction "new\_node\_position\_available(node\_pos)" a également été adaptée. Lorsqu'une mesure de position existe, il y a un contrôle qui est effectué afin de s'assurer que les mesures ont été effectuées dans un ordre précis qui est le suivant : Burst reçu de la mesure sur le slave0 (2x) puis du slave1 (2x) puis du slave2 (2x) et finalement du slave3 (2x). Cela afin de ne pas mélanger les données lors de l'apprentissage à l'aide de l'algorithme SVM. 
 
 Finalement, pour que les mesures soient automatiques avec le moins d'interaction possible avec l'utilisateur le fichier gui.py a été modifié pour y ajouter les fonctions software des boutons "stop", "start" et "reset". 
-
-\begin{figure}[htp]
- \begin{center}
-  \includegraphics[scale=0.7]{figures/PriseMesures.png}
-  \caption{Diagramme expliquant la prise de mesures des valeurs de ranging}
-  \label{fig:mesures} %% NOTE: always label *after* caption!
- \end{center}
-\end{figure}
 
 \subsubsection{Structure des données}
 
