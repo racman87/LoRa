@@ -181,7 +181,7 @@ La matrice de confusion représentée est donnée avec des mesures qui ont été
 
 Afin de valider le système, cinq points supplémentaires par position ont été pris durant une autre période et en ayant probablement une position à peine différente. Il faut préciser que les mesures sur la position 5 ont été effectuées au même moment tant pour les quarante que les cinq mesures. C'est pour cette raison que la détection de cette position est très bonne. 
 
-Cela montre une précision de 46.67\% ce qui correspond à 14 positions correctement reconnues sur 30. Ces résultats ne sont pas encourageants, car cela veut dire que sitôt que l'espion est positionné différemment, mais au même endroit cela influence grandement la reconnaissance. Il est donc nécessaire d'effectuer un travaille supplémentaire pour améliorer cette reconnaissance soit niveau prise de mesure soit niveau du travail sur les caractéristiques. Ce qui a été obtenu dans ce test n'était pas ce qui était attendu au vu des résultats obtenus lors de l'entrainement dans la Figure \ref{fig:matPosSxTRaw}.
+Cela montre une précision de 46.67\% ce qui correspond à 14 positions correctement reconnues sur 30 (Figure \ref{fig:matPosSxTRawall}). Ces résultats ne sont pas encourageants, car cela veut dire que sitôt que l'espion est positionné différemment, mais au même endroit cela influence grandement la reconnaissance. Il est donc nécessaire d'effectuer un travail supplémentaire pour améliorer cette reconnaissance soit au niveau de la prise de mesure soit au niveau de la sélection des caractéristiques. Ce qui a été obtenu dans ce test n'était pas ce qui était attendu au vu des résultats obtenus lors de l'entrainement dans la Figure \ref{fig:matPosSxTRaw}.
 %toute les raw
 %Accuracy with optimisation 46.666666666666664 %
 %Accuracy with optimisation 14 sur 30
@@ -209,9 +209,9 @@ Deux mesures sont effectuées par esclave pour les quarante canaux. L'exemple pr
 \subsubsection{Résultat en utilisant la position non convergé}
 Le résultat qui est présenté ici permet de faire une comparaison entre une mesure qui est convergée (présenté au chapitre suivant) et une mesure qui est calculée uniquement à partir de huit mesures. C'est sans surprise que les résultats qui sont obtenus sont vraiment moins bons.
 
-La Figure \ref{fig:matPosSxTPos} présente le résultat obtenu lorsque l'entrainement est fait avec 32 des 40 mesures sur une même position et testé avec les huit restants. Le résultat obtenu est impressionnant et offre une précision d'environ 70\% contre environ 85\% pour la solution avec les positions convergées. 
+La Figure \ref{fig:matPosSxPos} présente le résultat obtenu lorsque l'entrainement est fait avec 32 des 40 mesures sur une même position et testé avec les huit restants. Le résultat obtenu est impressionnant et offre une précision d'environ 70\% contre environ 85\% pour la solution avec les positions convergées. 
 
-La matrice de confusion représentée est donnée avec des mesures qui ont été faites sur un même point sans bouger l'espion. La précision est de 72.91\%, le F1-score macro est de 0.7102 et un F1-score micro de 0.7293.  
+La matrice de confusion représentée (Figure \ref{fig:matPosSxPos}) est donnée avec des mesures qui ont été faites sur un même point sans bouger l'espion. La précision est de 72.91\%, le F1-score macro est de 0.7102 et un F1-score micro de 0.7293.  
 %Accuracy with optimisation 72.91666666666666 %
 %Accuracy 0.7291666666666666
 %F1-Score macro : 0.7102357609710551
@@ -220,14 +220,13 @@ La matrice de confusion représentée est donnée avec des mesures qui ont été
  \begin{center}
   \includegraphics[scale=0.5]{figures/mat_pos_Sx_pos.png}
   \caption{Matrice de confusion obtenue en utilisant les points Sx et la caractéristique de position}
-  \label{fig:matPosSxTPos} %% NOTE: always label *after* caption!
+  \label{fig:matPosSxPos} %% NOTE: always label *after* caption!
  \end{center}
 \end{figure}
-83.33%
 
 Afin de valider le système, cinq points supplémentaires par position ont été pris durant une autre période et en ayant probablement une position à peine différente. Il faut préciser que les mesures sur la position cinq ont été effectuées au même moment tant pour les quarante que les cinq mesures. C'est pour cette raison que la détection de cette position est très bonne. 
 
-Cela montre une précision de 43.33\% ce qui correspond à 13 positions correctement reconnues sur 30 alors que les résultats pour les positions convergées donnent 83.33\% qui correspond à une reconnaissance correcte de 25 positions sur 30.
+Cela montre une précision de 43.33\% ce qui correspond à 13 positions correctement reconnues sur 30 (Figure \ref{fig:matPosSxTPos}) alors que les résultats pour les positions convergées donnent 83.33\% qui correspond à une reconnaissance correcte de 25 positions sur 30.
 
 %Accuracy with optimisation 43.333333333333336 %
 %Accuracy with optimisation 13 sur 30
@@ -260,7 +259,7 @@ La Figure \ref{fig:matPosSx} présente le résultat obtenu lorsque l'entrainemen
 
 La matrice de confusion représentée est donnée avec des mesures qui ont été faites sur un même point sans bouger l'espion. La précision dans ce cas est de 97.92\% avec un F1-score macro de 0.9791 et un F1-score micro de 0.9792. 
 
-\begin{figure}[htp]
+\begin{figure}[H]
  \begin{center}
   \includegraphics[scale=0.5]{figures/mat_pos_Sx.PNG}
   \caption{Matrice de confusion obtenue pour la meilleure solution en utilisant les données des points Sx}
@@ -270,11 +269,11 @@ La matrice de confusion représentée est donnée avec des mesures qui ont été
 
 Maintenant, afin de valider le système cinq points supplémentaires par position ont été pris durant une autre période de la journée et en ayant probablement une position à peine différente. La présentation des précédents résultats montre de très mauvais résultats concernant ce test, mais après le travail effectué et la recherche des meilleures caractéristiques les résultats sont satisfaisants et encourageants. Il faut préciser que les mesures sur la position 5 ont été effectuées au même moment tant pour les quarante que les cinq mesures. C'est pour cette raison que la détection de cette position est excellente. 
 
-Cela montre une précision de 73.33\% ce qui correspond à 22 positions correctement reconnues sur 30. 
+Cela montre une précision de 73.33\% ce qui correspond à 22 positions correctement reconnues sur 30, voir Figure \ref{fig:matPosSxT}. 
 %Accuracy with optimisation 73.33333333333333 %
 %Accuracy with optimisation 22 sur 30
 %Accuracy 0.7333333333333333
-\begin{figure}[htp]
+\begin{figure}[H]
  \begin{center}
   \includegraphics[scale=0.5]{figures/mat_pos_SxT.png}
   \caption{Matrice de confusion pour la meilleure solution en utilisant les points de tests SxT}
@@ -325,9 +324,9 @@ La Figure \ref{fig:matPosConvSx} représente le résultat obtenu lorsque l'entra
  \end{center}
 \end{figure}
 
-Afin de tester l'algorithme fixé, il est entrainé avec les quarante mesures effectuées sur chaque position de l'espion. Ces quarante mesures sont celles utilisées pour définir les meilleurs paramètres et obtenir les meilleurs résultats comme présentés dans la Figure \ref{fig:plotPosConv}. La Figure \ref{fig:matPosConvSxT} présente le résultat final obtenu avec les cinq données de test qui avaient été effectué à la même position que les quarante de l'entrainement. 
+Afin de tester l'algorithme fixé, il est entrainé avec les quarante mesures effectuées sur chaque position de l'espion. Ces quarante mesures sont celles utilisées pour définir les meilleurs paramètres et obtenir les meilleurs résultats. La Figure \ref{fig:matPosConvSxT} présente le résultat final obtenu avec les cinq données de test qui avaient été effectué à la même position que les quarante de l'entrainement. 
 
-La précision obtenue pour ce test est de 83.33\% ce qui correspond à une reconnaissance correcte de 25 positions sur 30. Les positions mal reconnues sont sans surprise les positions S4 et S5.
+La précision obtenue pour ce test est de 83.33\% ce qui correspond à une reconnaissance correcte de 25 positions sur 30. Les positions mal reconnues sont sans surprise les positions S4 et S5 dû au fait que ces deux points tendent à être localisés sur la position du maitre.
 
 \begin{figure}[htp]
  \begin{center}

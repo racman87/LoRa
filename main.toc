@@ -96,7 +96,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\nonumberline Meilleur r\IeC {\'e}sultat obtenu}{33}{section*.48}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}R\IeC {\'e}sultats en utilisant les donn\IeC {\'e}es de position converg\IeC {\'e}es}{37}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}R\IeC {\'e}sultats en utilisant les donn\IeC {\'e}es de position converg\IeC {\'e}es}{36}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}R\IeC {\'e}sum\IeC {\'e} des r\IeC {\'e}sultats}{39}{section.4.5}
 \defcounter {refsection}{0}\relax 
