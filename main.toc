@@ -2,9 +2,7 @@
 \babel@toc {french}{}
 \babel@toc {french}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abstract}{iii}{chapter*.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline R\IeC {\'e}sum\IeC {\'e}}{iii}{chapter*.2}
+\contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e} / Abstact}{iii}{chapter*.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Remerciements}{v}{chapter*.4}
 \defcounter {refsection}{0}\relax 
@@ -12,13 +10,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Contexte}{1}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Aspect Novateur}{2}{section.1.2}
+\contentsline {section}{\numberline {1.2}Aspect novateur}{2}{section.1.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.3}Structure du rapport}{2}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Etat de l'art}{3}{chapter.2}
+\contentsline {chapter}{\numberline {2}\IeC {\'E}tat de l'art}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Type d'apprentissage}{3}{section.2.1}
+\contentsline {section}{\numberline {2.1}Classification des algorithmes d'apprentissage}{3}{section.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Algorithme de classification}{4}{section.2.2}
 \defcounter {refsection}{0}\relax 
@@ -36,17 +34,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.7}Bagging}{5}{subsection.2.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Algorithme de regression}{6}{section.2.3}
+\contentsline {section}{\numberline {2.3}Algorithme de r\IeC {\'e}gression}{6}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Support vector machine pour la r\IeC {\'e}gression (SVR)}{6}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Support Vector Machine pour la r\IeC {\'e}gression (SVR)}{6}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Gaussian Process (GP)}{6}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}D\IeC {\'e}tection d'outliers \cite {ML_indoor}}{7}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Etude des travaux existants}{7}{section.2.5}
+\contentsline {section}{\numberline {2.5}\IeC {\'E}tude des travaux existants}{7}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Analyse comparative de diff\IeC {\'e}rents algorithme pour le positionnement int\IeC {\'e}rieur \cite {ML_algo}}{7}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.1}Analyse comparative de diff\IeC {\'e}rents algorithmes pour le positionnement int\IeC {\'e}rieur \cite {ML_algo}}{7}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.5.2}Machine learning pour diminuer l'erreur de positionnement UWB \cite {ML_UWB}}{10}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
@@ -56,25 +54,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Prise de mesures}{15}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Setup pour la prise de mesures}{15}{section.3.1}
+\contentsline {section}{\numberline {3.1}Plan de mesure}{15}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Programme de prise de mesure \cite {MIC}}{16}{section.3.2}
+\contentsline {section}{\numberline {3.2}Setup pour la prise de mesures}{15}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Architecture}{16}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Mat\IeC {\'e}riel utilis\IeC {\'e}}{17}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Prise de donn\IeC {\'e}es brutes}{18}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Programme de prise de mesure \cite {MIC}}{18}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Modification du programme lr24\_resolver.py}{19}{section*.28}
+\contentsline {subsection}{\numberline {3.3.1}Architecture logicielle}{18}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Structure des donn\IeC {\'e}es}{19}{section*.30}
+\contentsline {subsection}{\numberline {3.3.2}Prise de donn\IeC {\'e}es brutes}{20}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Prise de donn\IeC {\'e}es de positions converg\IeC {\'e}es}{21}{subsection.3.2.3}
+\contentsline {subsubsection}{\nonumberline Modification du programme lr24\_resolver.py}{20}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Modification du programme lr24\_resolver.py}{21}{section*.32}
+\contentsline {subsubsection}{\nonumberline Structure des donn\IeC {\'e}es}{21}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Structure des donn\IeC {\'e}es}{23}{section*.34}
+\contentsline {subsection}{\numberline {3.3.3}Prise de donn\IeC {\'e}es de positions converg\IeC {\'e}es}{21}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Plan de mesure}{23}{section.3.3}
+\contentsline {subsubsection}{\nonumberline Modification du programme lr24\_resolver.py}{23}{section*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Structure des donn\IeC {\'e}es}{24}{section*.34}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Traitement des donn\IeC {\'e}es et classification}{25}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -84,24 +84,30 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Reconnaissance - Algorithme}{28}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}hyper-param\IeC {\`e}tres}{28}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Hyper param\IeC {\`e}tres}{28}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Validation et r\IeC {\'e}sultats}{29}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}R\IeC {\'e}sultats en utilisant les donn\IeC {\'e}es de "ranging"}{30}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline R\IeC {\'e}sultat en utilisant toutes les donn\IeC {\'e}es de ranging brutes}{31}{section*.43}
+\contentsline {subsubsection}{\nonumberline R\IeC {\'e}sultat en utilisant toutes les donn\IeC {\'e}es de ranging brutes}{31}{section*.42}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline R\IeC {\'e}sultat en utilisant la position non converg\IeC {\'e}e}{33}{section*.47}
+\contentsline {subsubsection}{\nonumberline R\IeC {\'e}sultat en utilisant la position non converg\IeC {\'e}}{33}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Meilleur r\IeC {\'e}sultat obtenu}{34}{section*.50}
+\contentsline {subsubsection}{\nonumberline Meilleur r\IeC {\'e}sultat obtenu}{33}{section*.49}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}R\IeC {\'e}sultats en utilisant les donn\IeC {\'e}es de position converg\IeC {\'e}es}{36}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}R\IeC {\'e}sultats en utilisant les donn\IeC {\'e}es de position converg\IeC {\'e}es}{37}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}R\IeC {\'e}sum\IeC {\'e} des r\IeC {\'e}sultats}{38}{section.4.5}
+\contentsline {section}{\numberline {4.5}R\IeC {\'e}sum\IeC {\'e} des r\IeC {\'e}sultats}{39}{section.4.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Probl\IeC {\`e}mes rencontr\IeC {\'e}s et am\IeC {\'e}liorations}{41}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Conclusion}{43}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Bibliographie}{45}{chapter*.59}
+\contentsline {chapter}{\nonumberline Bibliographie}{45}{chapter*.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Cahier des charges}{49}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Planning}{55}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Journal de travail}{57}{appendix.C}

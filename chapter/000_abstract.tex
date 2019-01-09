@@ -1,7 +1,16 @@
-\chapter{Abstract}
+\chapter*{Résumé}
+Le défi d'avoir une localisation intérieure est de plus en plus présent dans la vie de tous les jours et devient d'une très grande utilité pour l'industrie, mais également pour effectuer de la surveillance de personnes par exemple. En extérieur, il existe une multitude de technologies le permettant (GPS, le Wifi, la vision, etc.) alors qu'en intérieur très peu de technologies ont fait leurs preuves.
+
+L'objectif de ce projet d'approfondissement est d'étudier la possibilité d'amélioration de la précision du positionnement intérieur grâce à des algorithmes d'apprentissage tels que "support vector machine", "random forest", "K-nearest neighbour", etc. Le système de positionnement de départ est basée sur la technologie LoRa 2.4GHz intégrée dans un circuit radio SX1280 de chez Semtech. 
+
+Un logiciel d'apprentissage a été développé afin de tester différents scénarios par rapport à des mesures qui ont été prises dans le laboratoire de St-Imier. Ces différents scénarios comportent des points qui ont été mesurés aux mêmes endroits, aux mêmes endroits mais à des moments différents en ayant légèrement modifié la position et des points placés autour des points de référence. 
+
+Les résultats obtenus sont encourageants concernant la classification, mais il serait nécessaire d'améliorer le système en intégrant une régression pour parvenir à localiser des points complètement inconnus. Il serait également nécessaire de retoucher le pré-traitement des mesures brutes ainsi que simplifier la procédure de récolte de données.
+  
+\addcontentsline{toc}{chapter}{Résumé / Abstact} % adds an entry to the table of contents
 
 %\chapter{Résumé}
-{\let\clearpage\relax\par \chapter{Résumé}}
+{\let\clearpage\relax\par \chapter*{Abstract}}
 
-\todo{Compléter cette partie}
+\todo{Traduire en Anglais}
 	

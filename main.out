@@ -1,45 +1,48 @@
-\BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
-\BOOKMARK [0][-]{chapter*.2}{R\351sum\351}{}% 2
-\BOOKMARK [0][-]{chapter*.4}{Remerciements}{}% 3
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
-\BOOKMARK [1][-]{section.1.1}{Contexte}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.2}{Aspect Novateur}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.3}{Structure du rapport}{chapter.1}% 7
-\BOOKMARK [0][-]{chapter.2}{Etat de l'art}{}% 8
-\BOOKMARK [1][-]{section.2.1}{Type d'apprentissage}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.2}{Algorithme de classification}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.1}{Decision Tree}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.2}{Na\357ve Bayes}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.3}{Bayesian Network}{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.4}{K-Nearest Neighbor}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.5}{SMO / SVM}{section.2.2}% 15
-\BOOKMARK [2][-]{subsection.2.2.6}{AdaBoost}{section.2.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.7}{Bagging}{section.2.2}% 17
-\BOOKMARK [1][-]{section.2.3}{Algorithme de regression}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.3.1}{Support vector machine pour la r\351gression \(SVR\)}{section.2.3}% 19
-\BOOKMARK [2][-]{subsection.2.3.2}{Gaussian Process \(GP\)}{section.2.3}% 20
-\BOOKMARK [1][-]{section.2.4}{D\351tection d'outliers MLindoor}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.5}{Etude des travaux existants}{chapter.2}% 22
-\BOOKMARK [2][-]{subsection.2.5.1}{Analyse comparative de diff\351rents algorithme pour le positionnement int\351rieur MLalgo}{section.2.5}% 23
-\BOOKMARK [2][-]{subsection.2.5.2}{Machine learning pour diminuer l'erreur de positionnement UWB MLUWB}{section.2.5}% 24
-\BOOKMARK [2][-]{subsection.2.5.3}{Am\351lioration du positionnement en utilisant "conformal prediction" CPRSS}{section.2.5}% 25
-\BOOKMARK [1][-]{section.2.6}{Choix et conclusion}{chapter.2}% 26
-\BOOKMARK [0][-]{chapter.3}{Prise de mesures}{}% 27
-\BOOKMARK [1][-]{section.3.1}{Setup pour la prise de mesures}{chapter.3}% 28
-\BOOKMARK [1][-]{section.3.2}{Programme de prise de mesure MIC}{chapter.3}% 29
-\BOOKMARK [2][-]{subsection.3.2.1}{Architecture}{section.3.2}% 30
-\BOOKMARK [2][-]{subsection.3.2.2}{Prise de donn\351es brutes}{section.3.2}% 31
-\BOOKMARK [2][-]{subsection.3.2.3}{Prise de donn\351es de positions converg\351es}{section.3.2}% 32
-\BOOKMARK [1][-]{section.3.3}{Plan de mesure}{chapter.3}% 33
+\BOOKMARK [0][-]{chapter*.1}{R\351sum\351 / Abstact}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{Remerciements}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Contexte}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.2}{Aspect novateur}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.3}{Structure du rapport}{chapter.1}% 6
+\BOOKMARK [0][-]{chapter.2}{\311tat de l'art}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Classification des algorithmes d'apprentissage}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.2}{Algorithme de classification}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.1}{Decision Tree}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.2}{Na\357ve Bayes}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.3}{Bayesian Network}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.4}{K-Nearest Neighbor}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.5}{SMO / SVM}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.6}{AdaBoost}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.7}{Bagging}{section.2.2}% 16
+\BOOKMARK [1][-]{section.2.3}{Algorithme de r\351gression}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.3.1}{Support Vector Machine pour la r\351gression \(SVR\)}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{Gaussian Process \(GP\)}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{D\351tection d'outliers MLindoor}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.5}{\311tude des travaux existants}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.5.1}{Analyse comparative de diff\351rents algorithmes pour le positionnement int\351rieur MLalgo}{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.2}{Machine learning pour diminuer l'erreur de positionnement UWB MLUWB}{section.2.5}% 23
+\BOOKMARK [2][-]{subsection.2.5.3}{Am\351lioration du positionnement en utilisant "conformal prediction" CPRSS}{section.2.5}% 24
+\BOOKMARK [1][-]{section.2.6}{Choix et conclusion}{chapter.2}% 25
+\BOOKMARK [0][-]{chapter.3}{Prise de mesures}{}% 26
+\BOOKMARK [1][-]{section.3.1}{Plan de mesure}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.2}{Setup pour la prise de mesures}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.2.1}{Mat\351riel utilis\351}{section.3.2}% 29
+\BOOKMARK [1][-]{section.3.3}{Programme de prise de mesure MIC}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.1}{Architecture logicielle}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.2}{Prise de donn\351es brutes}{section.3.3}% 32
+\BOOKMARK [2][-]{subsection.3.3.3}{Prise de donn\351es de positions converg\351es}{section.3.3}% 33
 \BOOKMARK [0][-]{chapter.4}{Traitement des donn\351es et classification}{}% 34
 \BOOKMARK [1][-]{section.4.1}{Structure du traitement}{chapter.4}% 35
 \BOOKMARK [1][-]{section.4.2}{Extraction des caract\351ristiques}{chapter.4}% 36
 \BOOKMARK [1][-]{section.4.3}{Reconnaissance - Algorithme}{chapter.4}% 37
-\BOOKMARK [2][-]{subsection.4.3.1}{hyper-param\350tres}{section.4.3}% 38
+\BOOKMARK [2][-]{subsection.4.3.1}{Hyper param\350tres}{section.4.3}% 38
 \BOOKMARK [1][-]{section.4.4}{Validation et r\351sultats}{chapter.4}% 39
 \BOOKMARK [2][-]{subsection.4.4.1}{R\351sultats en utilisant les donn\351es de "ranging"}{section.4.4}% 40
 \BOOKMARK [2][-]{subsection.4.4.2}{R\351sultats en utilisant les donn\351es de position converg\351es}{section.4.4}% 41
 \BOOKMARK [1][-]{section.4.5}{R\351sum\351 des r\351sultats}{chapter.4}% 42
 \BOOKMARK [0][-]{chapter.5}{Probl\350mes rencontr\351s et am\351liorations}{}% 43
 \BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 44
-\BOOKMARK [0][-]{chapter*.59}{Bibliographie}{}% 45
+\BOOKMARK [0][-]{chapter*.58}{Bibliographie}{}% 45
+\BOOKMARK [0][-]{appendix.A}{Cahier des charges}{}% 46
+\BOOKMARK [0][-]{appendix.B}{Planning}{}% 47
+\BOOKMARK [0][-]{appendix.C}{Journal de travail}{}% 48
